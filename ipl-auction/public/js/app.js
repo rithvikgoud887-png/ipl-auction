@@ -870,32 +870,6 @@ function renderBidStream(bidHistory) {
     .join("");
 }
 
-// Update Timer Countdown
-function updateTimerDisplay(remainingSeconds) {
-  const numEl = document.getElementById("timerSecondsText");
-  const circleEl = document.getElementById("timerProgressCircle");
-  if (!numEl || !circleEl) return;
-
-  numEl.textContent = Math.max(0, remainingSeconds);
-
-  const totalCircumference = 276.46;
-  const progress = Math.max(0, remainingSeconds) / 10;
-  const offset = totalCircumference * (1 - progress);
-
-  circleEl.style.strokeDashoffset = offset;
-
-  if (remainingSeconds <= 3) {
-    circleEl.style.stroke = "var(--accent-red)";
-    numEl.style.color = "var(--accent-red)";
-  } else if (remainingSeconds <= 5) {
-    circleEl.style.stroke = "var(--accent-gold)";
-    numEl.style.color = "var(--accent-gold)";
-  } else {
-    circleEl.style.stroke = "var(--accent-cyan)";
-    numEl.style.color = "#fff";
-  }
-}
-
 // Celebrations (SOLD / UNSOLD)
 function triggerSoldCelebration(data) {
   const overlay = document.getElementById("soldCelebrationOverlay");
