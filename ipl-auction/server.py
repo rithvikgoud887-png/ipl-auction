@@ -353,6 +353,28 @@ class AuctionRoom:
         if team_id in self.not_interested_teams:
             return False, "Your franchise already passed on this player."
         self.not_interested_teams.add(team_id)
+
+        connected_user_ids = {
+            getattr(client, "user_id", None) for client in self.clients
+        }
+        active_team_ids = {
+            p.get("teamId")
+            for participant_id, p in self.participants.items()
+            if participant_id in connected_user_ids and p.get("teamId") in self.teams
+        }
+        resolve_as_sold = False
+        resolve_as_unsold = False
+        if self.highest_bidder:
+            competing_team_ids = active_team_ids - {self.highest_bidder}
+            resolve_as_sold = competing_team_ids.issubset(self.not_interested_teams)
+        else:
+            resolve_as_unsold = bool(active_team_ids) and active_team_ids.issubset(self.not_interested_teams)
+
+        # Lock bidding synchronously before the first await so a concurrent bid
+        # cannot arrive after the final pass but before the sale is recorded.
+        if resolve_as_sold or resolve_as_unsold:
+            self.status = "PLAYER_RESOLVING"
+
         team = self.teams[team_id]
         await self.broadcast("TEAM_PASSED_ON_PLAYER", {
             "teamId": team_id,
@@ -361,9 +383,16 @@ class AuctionRoom:
             "playerId": self.current_player["id"]
         })
         await self.broadcast_state()
+        if resolve_as_sold:
+            await self.process_sold(automatic=True)
+            return True, "All other franchises passed; player sold to the highest bidder"
+        if resolve_as_unsold:
+            await self.process_unsold()
+            return True, "All active franchises passed; player is unsold"
+
         return True, "Your franchise passed on this player"
 
-    async def process_sold(self):
+    async def process_sold(self, automatic=False):
         self.status = "SOLD"
         winning_team = self.teams[self.highest_bidder]
         sold_price = self.current_bid
@@ -414,7 +443,8 @@ class AuctionRoom:
             "player": player,
             "winningTeam": winning_team,
             "finalBid": sold_price,
-            "transaction": tx
+            "transaction": tx,
+            "automatic": automatic
         })
         await self.broadcast_state()
 
@@ -711,6 +741,52 @@ async def handle_websocket(websocket):
 
             msg_type = msg.get("type")
             data = msg.get("data", {})
+
+            if msg_type == "LEAVE_ROOM":
+                if not current_room or not user_id:
+                    continue
+
+                room = current_room
+                leaving_user_id = user_id
+                leaving_participant = room.participants.pop(leaving_user_id, None)
+                room.clients.discard(websocket)
+                room.release_franchise(leaving_user_id)
+
+                if leaving_user_id == room.host_user_id and room.participants:
+                    # Keep the room manageable after its host exits.
+                    new_host_id = min(
+                        room.participants,
+                        key=lambda participant_id: room.participants[participant_id].get("joinedAt", 0)
+                    )
+                    room.host_user_id = new_host_id
+                    for participant_id, participant in room.participants.items():
+                        participant["isHost"] = participant_id == new_host_id
+                    try:
+                        conn = sqlite3.connect(DB_PATH)
+                        conn.execute("UPDATE rooms SET host_user_id = ? WHERE code = ?", (new_host_id, room.code))
+                        conn.commit()
+                        conn.close()
+                    except Exception as db_err:
+                        logger.error(f"Error updating room host: {db_err}")
+
+                await websocket.send(json.dumps({
+                    "type": "ROOM_LEFT",
+                    "data": {"roomCode": room.code}
+                }))
+
+                if room.participants:
+                    await room.broadcast("PARTICIPANT_LEFT", {
+                        "userId": leaving_user_id,
+                        "name": leaving_participant.get("name", "Participant") if leaving_participant else "Participant",
+                        "newHostUserId": room.host_user_id
+                    })
+                    await room.broadcast_state()
+                else:
+                    ROOMS.pop(room.code, None)
+
+                current_room = None
+                user_id = None
+                websocket.user_id = None
 
             if msg_type == "CREATE_ROOM":
                 host_name = data.get("hostName", "Auctioneer").strip() or "Auctioneer"

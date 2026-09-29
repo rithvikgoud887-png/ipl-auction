@@ -143,6 +143,24 @@ h1, h2, h3, h4 {
   gap: 6px;
 }
 
+.btn-exit-room {
+  flex-shrink: 0;
+  padding: 4px 7px;
+  border: 1px solid rgba(248, 113, 113, 0.45);
+  border-radius: var(--radius-full);
+  background: rgba(248, 113, 113, 0.12);
+  color: #fca5a5;
+  font-size: 0.58rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn-exit-room:hover {
+  background: rgba(248, 113, 113, 0.24);
+}
+
 .badge-label {
   font-size: 0.62rem;
   color: var(--text-muted);

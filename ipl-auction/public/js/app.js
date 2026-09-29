@@ -44,6 +44,17 @@ function showView(viewName) {
     if (mobileNav) mobileNav.classList.add("hidden");
     if (arenaTabs) arenaTabs.classList.add("hidden");
   }
+
+  const exitBtn = document.getElementById("exitRoomBtn");
+  const roomBadge = document.getElementById("roomBadgeContainer");
+  const hostEmergencyBar = document.getElementById("hostEmergencyBar");
+  const hostNotice = document.getElementById("hostNotice");
+  const startBtn = document.getElementById("startAuctionBtn");
+  if (exitBtn) exitBtn.classList.toggle("hidden", !state.roomCode || viewName === "lobby");
+  if (roomBadge) roomBadge.classList.toggle("hidden", !state.roomCode || viewName === "lobby");
+  if (hostEmergencyBar) hostEmergencyBar.classList.toggle("hidden", !state.isHost || viewName !== "arena");
+  if (hostNotice) hostNotice.classList.toggle("hidden", !state.isHost || viewName !== "teamSelect");
+  if (startBtn) startBtn.classList.toggle("hidden", !state.isHost || viewName !== "teamSelect");
 }
 
 function showNotification(msg, duration = 3000) {
@@ -208,6 +219,20 @@ function setupFormHandlers() {
       window.auctionSocket.send("PLACE_BID", {
         amount: null // Server calculates next increment
       });
+    });
+  }
+
+  const exitRoomBtn = document.getElementById("exitRoomBtn");
+  if (exitRoomBtn) {
+    exitRoomBtn.addEventListener("click", () => {
+      if (!state.roomCode) return;
+      if (!window.auctionSocket.isConnected) {
+        showNotification("Reconnect to the auction before leaving the room.");
+        return;
+      }
+      if (window.confirm("Leave this auction room?")) {
+        window.auctionSocket.send("LEAVE_ROOM", {});
+      }
     });
   }
 
@@ -382,6 +407,22 @@ function setupSocketListeners() {
     showNotification(`Joined Room ${data.roomCode}`);
   });
 
+  sock.on("ROOM_LEFT", () => {
+    state.roomCode = null;
+    state.roomState = null;
+    state.myTeamId = null;
+    state.isHost = false;
+    state.activeArenaSubTab = "arenaMainTab";
+    localStorage.removeItem("ipl_auction_room");
+    const badge = document.getElementById("roomBadgeContainer");
+    const miniFranchise = document.getElementById("myFranchiseMini");
+    if (badge) badge.classList.add("hidden");
+    if (miniFranchise) miniFranchise.classList.add("hidden");
+    hideCelebrations();
+    showView("lobby");
+    showNotification("You left the auction room.");
+  });
+
   sock.on("ROOM_STATE_SYNC", (roomState) => {
     state.roomState = roomState;
     applyRoomState(roomState);
@@ -396,6 +437,9 @@ function setupSocketListeners() {
   sock.on("PLAYER_SOLD", (data) => {
     window.soundEngine.playSold();
     triggerSoldCelebration(data);
+    if (data.automatic) {
+      showNotification(`${data.player.name} sold to ${data.winningTeam.name} after all other franchises passed.`);
+    }
     if (state.activeArenaSubTab === "arenaPlayersTab") renderAllPlayersPool();
   });
 
@@ -470,17 +514,6 @@ function handleRoomJoined(data) {
   const badgeContainer = document.getElementById("roomBadgeContainer");
   if (codeDisplay) codeDisplay.textContent = data.roomCode;
   if (badgeContainer) badgeContainer.classList.remove("hidden");
-
-  // Show Host emergency bar if host
-  const hostEmergencyBar = document.getElementById("hostEmergencyBar");
-  const hostNotice = document.getElementById("hostNotice");
-  const startBtn = document.getElementById("startAuctionBtn");
-
-  if (state.isHost) {
-    if (hostEmergencyBar) hostEmergencyBar.classList.remove("hidden");
-    if (hostNotice) hostNotice.classList.remove("hidden");
-    if (startBtn) startBtn.classList.remove("hidden");
-  }
 
   applyRoomState(data.state);
 }
