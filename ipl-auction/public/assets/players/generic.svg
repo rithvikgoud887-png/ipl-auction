@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="240" height="280">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#352b20"/><stop offset="1" stop-color="#111318"/></linearGradient></defs>
+  <rect width="240" height="280" rx="16" fill="url(#bg)" stroke="#d5a64a" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="120" cy="91" r="42" fill="#d5a64a" fill-opacity=".78"/>
+  <path d="M43 236c4-52 33-82 77-82s73 30 77 82v15H43z" fill="#d5a64a" fill-opacity=".78"/>
+  <path d="M82 54c8-19 22-28 39-28 22 0 37 16 39 43-15-11-28-17-44-17-11 0-22 2-34 8z" fill="#191b20"/>
+  <text x="120" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#f6e7c4">AUCTION PLAYER</text>
+</svg>

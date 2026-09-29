@@ -82,9 +82,10 @@ window.getTeamLogoSrc = function(teamId) {
   return window.ASSET_TEAM_LOGOS[teamId] || `/assets/logos/${teamId}.svg`;
 };
 
-window.getPlayerAvatarSrc = function(playerId) {
-  if (!playerId) return window.ASSET_PLAYER_AVATARS['p_01'] || '/assets/players/p_01.svg';
-  return window.ASSET_PLAYER_AVATARS[playerId] || `/assets/players/${playerId}.svg`;
+window.getPlayerAvatarSrc = function(playerOrId) {
+  if (playerOrId && typeof playerOrId === 'object' && playerOrId.imageUrl) return playerOrId.imageUrl;
+  if (!playerOrId) return '/assets/players/generic.svg';
+  return window.ASSET_PLAYER_AVATARS[playerOrId] || '/assets/players/generic.svg';
 };
 
-console.log("⚡ [Assets] Loaded 10 Official Franchise Vector Logos and 60 Player Avatars directly into memory.");
+console.log("⚡ [Assets] Loaded 10 franchise logos and player profile artwork.");

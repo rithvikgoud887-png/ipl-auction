@@ -118,7 +118,7 @@ class AuctionRoom:
             "playingXI": 11,
             "maxOverseasInXI": 4,
             "impactPlayer": True,
-            "bidTimerSeconds": 10,
+            "bidTimerSeconds": 0,
             "transitionSeconds": 2.5,
             "autoNextPlayer": True,
             **settings
@@ -160,12 +160,13 @@ class AuctionRoom:
         self.highest_bidder = None
         self.highest_bidder_name = None
         self.bid_history = []
+        self.not_interested_teams = set()
         self.unsold_list = []
         self.transactions = []
         self.last_transaction = None
         
-        # Timer management
-        self.timer_remaining = self.settings["bidTimerSeconds"]
+        # Bidding remains open until the host closes the player.
+        self.timer_remaining = 0
         self.timer_task = None
         self.is_paused = False
         self.pause_remaining = 0
@@ -175,6 +176,8 @@ class AuctionRoom:
         self.playing_xis = {}
 
     def get_public_state(self, for_user_id=None):
+        participant = self.participants.get(for_user_id, {}) if for_user_id else {}
+        my_team_id = participant.get("teamId")
         return {
             "room": {
                 "code": self.code,
@@ -194,6 +197,8 @@ class AuctionRoom:
             "highestBidder": self.highest_bidder,
             "highestBidderName": self.highest_bidder_name,
             "bidHistory": self.bid_history[-10:],
+            "notInterestedTeams": sorted(self.not_interested_teams),
+            "myTeamNotInterested": bool(my_team_id and my_team_id in self.not_interested_teams),
             "timerRemaining": self.timer_remaining,
             "queueIndex": self.queue_index,
             "totalInQueue": len(self.queue),
@@ -279,7 +284,8 @@ class AuctionRoom:
             self.highest_bidder = None
             self.highest_bidder_name = None
             self.bid_history = []
-            self.timer_remaining = self.settings["bidTimerSeconds"]
+            self.not_interested_teams = set()
+            self.timer_remaining = 0
             self.status = "PLAYER_LOADING"
             
             logger.info(f"Room {self.code}: Loading player #{self.queue_index + 1} - {self.current_player['name']}")
@@ -294,7 +300,7 @@ class AuctionRoom:
             await asyncio.sleep(1.8)
 
             self.status = "AUCTION_ACTIVE"
-            self.timer_remaining = self.settings["bidTimerSeconds"]
+            self.timer_remaining = 0
             await self.broadcast("AUCTION_ACTIVE", {
                 "player": self.current_player,
                 "timer": self.timer_remaining,
@@ -302,8 +308,6 @@ class AuctionRoom:
             })
             await self.broadcast_state()
 
-            # Start authoritative server timer loop
-            self.timer_task = asyncio.create_task(self.run_timer_loop())
         else:
             # Reached end of current queue
             self.status = "AUCTION_COMPLETE"
@@ -319,31 +323,45 @@ class AuctionRoom:
             await self.broadcast_state()
 
     async def run_timer_loop(self):
-        try:
-            while self.status in ("AUCTION_ACTIVE", "BIDDING"):
-                if self.is_paused:
-                    await asyncio.sleep(0.5)
-                    continue
-                
-                await asyncio.sleep(1.0)
-                if self.is_paused:
-                    continue
-                
-                self.timer_remaining -= 1
-                await self.broadcast("TIMER_TICK", {
-                    "timerRemaining": self.timer_remaining
-                })
+        # Kept as a no-op for compatibility with any already-created room tasks.
+        return
 
-                if self.timer_remaining <= 0:
-                    if self.highest_bidder:
-                        await self.process_sold()
-                    else:
-                        await self.process_unsold()
-                    break
-        except asyncio.CancelledError:
-            pass
-        except Exception as e:
-            logger.error(f"Timer loop error in {self.code}: {e}", exc_info=True)
+    async def close_player(self, user_id: str, sold: bool):
+        if user_id != self.host_user_id:
+            return False, "Only the host can close bidding."
+        if self.status not in ("AUCTION_ACTIVE", "BIDDING") or not self.current_player:
+            return False, "There is no open player to close."
+        if sold and not self.highest_bidder:
+            return False, "Place a bid before marking this player sold."
+        if sold:
+            await self.process_sold()
+        else:
+            await self.process_unsold()
+        return True, "Player closed"
+
+    async def pass_on_player(self, user_id: str):
+        if self.status not in ("AUCTION_ACTIVE", "BIDDING") or not self.current_player:
+            return False, "There is no open player to pass on."
+        if self.is_paused:
+            return False, "The auction is paused."
+        participant = self.participants.get(user_id)
+        team_id = participant.get("teamId") if participant else None
+        if not team_id or team_id not in self.teams:
+            return False, "Select a franchise before passing on a player."
+        if team_id == self.highest_bidder:
+            return False, "Your franchise holds the highest bid and cannot pass."
+        if team_id in self.not_interested_teams:
+            return False, "Your franchise already passed on this player."
+        self.not_interested_teams.add(team_id)
+        team = self.teams[team_id]
+        await self.broadcast("TEAM_PASSED_ON_PLAYER", {
+            "teamId": team_id,
+            "teamName": team["name"],
+            "teamShortName": team["shortName"],
+            "playerId": self.current_player["id"]
+        })
+        await self.broadcast_state()
+        return True, "Your franchise passed on this player"
 
     async def process_sold(self):
         self.status = "SOLD"
@@ -443,6 +461,8 @@ class AuctionRoom:
         team = self.teams.get(team_id)
         if not team:
             return False, "Franchise not found."
+        if team_id in self.not_interested_teams:
+            return False, "Your franchise marked this player as not interested."
         
         # Prevent self-bidding against own team
         if self.highest_bidder == team_id:
@@ -472,8 +492,7 @@ class AuctionRoom:
         self.highest_bidder_name = team["name"]
         self.status = "BIDDING"
         
-        # Reset server countdown to full timer seconds
-        self.timer_remaining = self.settings["bidTimerSeconds"]
+        self.timer_remaining = 0
 
         bid_entry = {
             "teamId": team_id,
@@ -818,6 +837,13 @@ async def handle_websocket(websocket):
                 if not ok:
                     await websocket.send(json.dumps({"type": "ACTION_ERROR", "data": {"message": msg_text}}))
 
+            elif msg_type == "PASS_ON_PLAYER":
+                if not current_room or not user_id:
+                    continue
+                ok, msg_text = await current_room.pass_on_player(user_id)
+                if not ok:
+                    await websocket.send(json.dumps({"type": "ACTION_ERROR", "data": {"message": msg_text}}))
+
             elif msg_type == "PAUSE_AUCTION":
                 if not current_room or not user_id:
                     continue
@@ -843,6 +869,13 @@ async def handle_websocket(websocket):
                 if not current_room or not user_id:
                     continue
                 ok, msg_text = await current_room.undo_last_sale(user_id)
+                if not ok:
+                    await websocket.send(json.dumps({"type": "ACTION_ERROR", "data": {"message": msg_text}}))
+
+            elif msg_type in ("CLOSE_PLAYER_SOLD", "CLOSE_PLAYER_UNSOLD"):
+                if not current_room or not user_id:
+                    continue
+                ok, msg_text = await current_room.close_player(user_id, msg_type == "CLOSE_PLAYER_SOLD")
                 if not ok:
                     await websocket.send(json.dumps({"type": "ACTION_ERROR", "data": {"message": msg_text}}))
 
@@ -950,7 +983,7 @@ async def main():
     logger.info("🏏 IPL AUCTION - REAL-TIME MULTIPLAYER SERVER 🏏")
     logger.info("=" * 60)
     logger.info(f"Loaded {len(SEEDED_TEAMS)} Real IPL Franchises (CSK, DC, GT, KKR, LSG, MI, PBKS, RR, RCB, SRH)")
-    logger.info(f"Loaded {len(SEEDED_PLAYERS)} Real Players (Official Mega Auction Pool)")
+    logger.info(f"Loaded {len(SEEDED_PLAYERS)} players across the 2026 squads and auction pool")
     logger.info(f"Purse per franchise: ₹120.00 Cr | Zero Retentions | Authoritative Engine")
 
     # Start Unified Server on PORT (handles both HTTP static app and WebSocket on same port!)

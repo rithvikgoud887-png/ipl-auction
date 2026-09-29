@@ -94,14 +94,6 @@
                     <span class="setting-val">₹120.00 Crore</span>
                   </div>
                   <div class="setting-item">
-                    <label>Bid Countdown Timer:</label>
-                    <select id="settingTimerSelect" class="form-select">
-                      <option value="10" selected>10 Seconds (Official)</option>
-                      <option value="15">15 Seconds</option>
-                      <option value="20">20 Seconds</option>
-                    </select>
-                  </div>
-                  <div class="setting-item">
                     <label>Transition Delay:</label>
                     <span class="setting-val">2.5 Seconds</span>
                   </div>
@@ -179,6 +171,8 @@
         <span class="emergency-label">HOST CONTROLS:</span>
         <button id="pauseAuctionBtn" class="btn-danger-outline btn-xs">⏸️ PAUSE</button>
         <button id="resumeAuctionBtn" class="btn-success-outline btn-xs hidden">▶️ RESUME</button>
+        <button id="closePlayerSoldBtn" class="btn-success-outline btn-xs">🔨 SOLD</button>
+        <button id="closePlayerUnsoldBtn" class="btn-warning-outline btn-xs">❌ UNSOLD</button>
         <button id="skipPlayerBtn" class="btn-warning-outline btn-xs">⏭️ SKIP PLAYER</button>
         <button id="undoSaleBtn" class="btn-danger-outline btn-xs">↩️ UNDO LAST SALE</button>
         <button id="manualNextBtn" class="btn-secondary-outline btn-xs" title="Emergency only">⏩ MANUAL NEXT</button>
@@ -257,13 +251,13 @@
               <!-- Set Tag -->
               <div class="podium-top-bar">
                 <span id="playerSetTag" class="set-pill">MARQUEE SET 1</span>
-                <span id="queueCounterDisplay" class="queue-counter">Player 1 of 60</span>
+                  <span id="queueCounterDisplay" class="queue-counter">Player 1 of 300</span>
               </div>
 
               <div class="player-showcase-row">
                 <!-- Player Portrait with local SVG fallback -->
                 <div class="player-image-wrapper">
-                  <img id="playerPortrait" src="/assets/players/p_01.svg" alt="Player Headshot" class="player-portrait-img" onerror="this.src='/assets/players/p_01.svg'">
+                  <img id="playerPortrait" src="/assets/players/generic.svg" alt="Player profile" class="player-portrait-img" onerror="this.src='/assets/players/generic.svg'">
                   <div id="playerCountryFlag" class="country-badge">🇮🇳 INDIA</div>
                 </div>
 
@@ -274,6 +268,7 @@
                     <span id="playerRoleBadge" class="role-badge">WICKETKEEPER BATTER</span>
                   </div>
                   <h2 id="playerNameDisplay" class="player-full-name">Rishabh Pant</h2>
+                  <div id="playerCurrentTeam" class="player-current-team">2026 IPL SQUAD</div>
                   <div class="player-styles-row">
                     <span id="battingStyleDisplay" class="style-item">🏏 Left-hand bat</span>
                     <span id="bowlingStyleDisplay" class="style-item">🎯 Right-arm offbreak</span>
@@ -286,20 +281,8 @@
                 </div>
               </div>
 
-              <!-- Bidding Status Display & Timer -->
+              <!-- Bidding Status Display -->
               <div class="live-bidding-stage">
-                <!-- Synchronized Radial Countdown Timer -->
-                <div class="timer-wrapper">
-                  <svg class="timer-svg" viewBox="0 0 100 100">
-                    <circle class="timer-bg-circle" cx="50" cy="50" r="44"></circle>
-                    <circle id="timerProgressCircle" class="timer-progress-circle" cx="50" cy="50" r="44"></circle>
-                  </svg>
-                  <div class="timer-text-container">
-                    <span id="timerSecondsText" class="timer-num">10</span>
-                    <span class="timer-lbl">SEC</span>
-                  </div>
-                </div>
-
                 <!-- Current Highest Bid & Winning Team Display -->
                 <div class="current-bid-display">
                   <span class="bid-headline">CURRENT HIGHEST BID</span>
@@ -328,6 +311,8 @@
                     <span id="nextBidAmountText" class="bid-btn-amount">₹2.00 Cr</span>
                   </button>
                 </div>
+                <button id="passPlayerBtn" class="btn-pass-player" title="Pass for your franchise; other franchises can keep bidding." disabled>NOT INTERESTED · PASS</button>
+                <div id="playerInterestStatus" class="player-interest-status" aria-live="polite"></div>
                 <div id="bidErrorMessage" class="bid-error-hint hidden">Insufficient purse for this bid</div>
               </div>
 

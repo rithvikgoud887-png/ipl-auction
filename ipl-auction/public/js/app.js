@@ -144,7 +144,6 @@ function setupFormHandlers() {
       e.preventDefault();
       const hostName = document.getElementById("hostNameInput").value.trim();
       const auctionName = document.getElementById("auctionNameInput").value.trim();
-      const timerSec = parseInt(document.getElementById("settingTimerSelect").value, 10) || 10;
 
       if (!hostName) {
         showNotification("Please enter your name.");
@@ -158,9 +157,7 @@ function setupFormHandlers() {
         hostName,
         auctionName,
         userId: state.userId,
-        settings: {
-          bidTimerSeconds: timerSec
-        }
+        settings: {}
       });
     });
   }
@@ -214,6 +211,11 @@ function setupFormHandlers() {
     });
   }
 
+  const passPlayerBtn = document.getElementById("passPlayerBtn");
+  if (passPlayerBtn) {
+    passPlayerBtn.addEventListener("click", () => window.auctionSocket.send("PASS_ON_PLAYER", {}));
+  }
+
   // Start Auction Button (Host)
   const startBtn = document.getElementById("startAuctionBtn");
   if (startBtn) {
@@ -231,6 +233,11 @@ function setupHostControls() {
   const undoBtn = document.getElementById("undoSaleBtn");
   const manualNextBtn = document.getElementById("manualNextBtn");
   const startUnsoldBtn = document.getElementById("btnStartUnsoldRound");
+  const closeSoldBtn = document.getElementById("closePlayerSoldBtn");
+  const closeUnsoldBtn = document.getElementById("closePlayerUnsoldBtn");
+
+  if (closeSoldBtn) closeSoldBtn.addEventListener("click", () => window.auctionSocket.send("CLOSE_PLAYER_SOLD", {}));
+  if (closeUnsoldBtn) closeUnsoldBtn.addEventListener("click", () => window.auctionSocket.send("CLOSE_PLAYER_UNSOLD", {}));
 
   if (pauseBtn) {
     pauseBtn.addEventListener("click", () => {
@@ -385,14 +392,6 @@ function setupSocketListeners() {
     showNotification(`${data.bid.teamShort} bid ${formatCrore(data.bid.amount)}!`);
   });
 
-  sock.on("TIMER_TICK", (data) => {
-    updateTimerDisplay(data.timerRemaining);
-    if (data.timerRemaining <= 3 && data.timerRemaining > 0) {
-      window.soundEngine.playWarning();
-    } else if (data.timerRemaining <= 5 && data.timerRemaining > 3) {
-      window.soundEngine.playTick();
-    }
-  });
 
   sock.on("PLAYER_SOLD", (data) => {
     window.soundEngine.playSold();
@@ -636,14 +635,16 @@ function renderArena(roomState) {
     document.getElementById("playerNameDisplay").textContent = p.name;
     const portraitEl = document.getElementById("playerPortrait");
     if (portraitEl) {
-      portraitEl.src = window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p.id) : (p.imageUrl || `/assets/players/${p.id}.svg`);
-      portraitEl.onerror = () => { portraitEl.src = `/assets/players/${p.id}.svg`; };
+      portraitEl.src = window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || "/assets/players/generic.svg");
+      portraitEl.alt = `${p.name} profile photo`;
+      portraitEl.onerror = () => { portraitEl.src = "/assets/players/generic.svg"; };
     }
 
     document.getElementById("playerCountryFlag").textContent = `${p.overseas ? '✈️' : '🇮🇳'} ${p.country.toUpperCase()}`;
     document.getElementById("playerSetTag").textContent = (p.auctionCategory || "AUCTION POOL").toUpperCase();
     document.getElementById("playerCappedBadge").textContent = p.capped ? "CAPPED" : "UNCAPPED";
     document.getElementById("playerRoleBadge").textContent = p.role.toUpperCase();
+    document.getElementById("playerCurrentTeam").textContent = p.currentTeam && p.currentTeam !== "POOL" ? `2026 IPL SQUAD · ${p.currentTeam}` : "ADDITIONAL AUCTION POOL";
     document.getElementById("battingStyleDisplay").textContent = `🏏 ${p.battingStyle || "Bat"}`;
     document.getElementById("bowlingStyleDisplay").textContent = `🎯 ${p.bowlingStyle || "Bowl"}`;
     document.getElementById("basePriceDisplay").textContent = formatCrore(p.reservePrice);
@@ -709,6 +710,18 @@ function renderArena(roomState) {
     }
 
     bidBtn.disabled = !canBid;
+    const passBtn = document.getElementById("passPlayerBtn");
+    if (passBtn) {
+      const canPass = Boolean(myTeam) && !roomState.myTeamNotInterested && roomState.highestBidder !== state.myTeamId && ["AUCTION_ACTIVE", "BIDDING"].includes(roomState.room.status) && !roomState.room.isPaused;
+      passBtn.disabled = !canPass;
+      passBtn.textContent = roomState.myTeamNotInterested ? "PASSED ON THIS PLAYER" : "NOT INTERESTED · PASS";
+    }
+    const interestStatus = document.getElementById("playerInterestStatus");
+    if (interestStatus) {
+      const passed = roomState.notInterestedTeams || [];
+      const shortNames = passed.map((teamId) => roomState.teams[teamId]?.shortName).filter(Boolean);
+      interestStatus.textContent = shortNames.length ? `Passed: ${shortNames.join(", ")}` : "No franchises have passed yet";
+    }
     if (!canBid && errReason) {
       errHint.textContent = errReason;
       errHint.classList.remove("hidden");
@@ -723,8 +736,6 @@ function renderArena(roomState) {
   // Right Column: Bid History Stream
   renderBidStream(roomState.bidHistory);
 
-  // Update Timer
-  updateTimerDisplay(roomState.timerRemaining);
 }
 
 // Render My Franchise Dashboard
@@ -794,7 +805,7 @@ function renderQueuePeek(roomState) {
     .map(
       (p) => `
         <div class="queue-item">
-          <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p.id) : (p.imageUrl || `/assets/players/${p.id}.svg`)}" class="queue-item-thumb" alt="${p.name}" onerror="this.src='/assets/players/${p.id}.svg'">
+          <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="queue-item-thumb" alt="${p.name}" onerror="this.src='/assets/players/generic.svg'">
           <span class="queue-item-name">${p.name}</span>
           <span class="queue-item-price">${formatCrore(p.reservePrice)}</span>
         </div>
@@ -1009,10 +1020,10 @@ function renderAllPlayersPool() {
       return `
         <div class="${cardClass}">
           <div class="pool-player-left">
-            <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p.id) : (p.imageUrl || `/assets/players/${p.id}.svg`)}" class="pool-player-avatar" alt="${p.name}" onerror="this.src='/assets/players/${p.id}.svg'">
+            <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="pool-player-avatar" alt="${p.name}" onerror="this.src='/assets/players/generic.svg'">
             <div>
               <div class="pool-player-name">${p.name} ${p.overseas ? '✈️' : '🇮🇳'}</div>
-              <div class="pool-player-meta">${p.role} • ${p.capped ? 'Capped' : 'Uncapped'} • ${p.battingStyle || ''}</div>
+              <div class="pool-player-meta">${p.role} • ${p.currentTeam && p.currentTeam !== 'POOL' ? `${p.currentTeam} · IPL 2026` : 'Auction pool'} • ${p.battingStyle || ''}</div>
             </div>
           </div>
           <div class="pool-player-right">
