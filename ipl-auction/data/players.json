@@ -20,10 +20,13 @@
     "headshotId": "102",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_001.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/102.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/102.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/102.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/102.png"
   },
   {
     "id": "p_002",
@@ -46,10 +49,13 @@
     "headshotId": "57",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_002.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/57.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/57.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/57.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/57.png"
   },
   {
     "id": "p_003",
@@ -72,10 +78,13 @@
     "headshotId": "190",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_003.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/190.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/190.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/190.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/190.png"
   },
   {
     "id": "p_004",
@@ -98,10 +107,13 @@
     "headshotId": "797",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_004.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/797.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/797.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/797.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/797.png"
   },
   {
     "id": "p_005",
@@ -124,10 +136,13 @@
     "headshotId": "3497",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_005.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3497.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3497.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3497.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3497.png"
   },
   {
     "id": "p_006",
@@ -150,10 +165,13 @@
     "headshotId": "139",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_006.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/139.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/139.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/139.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/139.png"
   },
   {
     "id": "p_007",
@@ -176,10 +194,13 @@
     "headshotId": "1486",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_007.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1486.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1486.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1486.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1486.png"
   },
   {
     "id": "p_008",
@@ -202,10 +223,13 @@
     "headshotId": "1216",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_008.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1216.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1216.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1216.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1216.png"
   },
   {
     "id": "p_009",
@@ -228,10 +252,13 @@
     "headshotId": "2032",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_009.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2032.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2032.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2032.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2032.png"
   },
   {
     "id": "p_010",
@@ -254,10 +281,13 @@
     "headshotId": "3493",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_010.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3493.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3493.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3493.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3493.png"
   },
   {
     "id": "p_011",
@@ -280,10 +310,13 @@
     "headshotId": "211",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_011.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/211.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/211.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/211.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/211.png"
   },
   {
     "id": "p_012",
@@ -306,10 +339,13 @@
     "headshotId": "8",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_012.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/8.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/8.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/8.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/8.png"
   },
   {
     "id": "p_013",
@@ -332,10 +368,13 @@
     "headshotId": "975",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_013.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/975.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/975.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/975.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/975.png"
   },
   {
     "id": "p_014",
@@ -358,10 +397,13 @@
     "headshotId": "3106",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_014.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3106.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3106.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3106.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3106.png"
   },
   {
     "id": "p_015",
@@ -384,10 +426,13 @@
     "headshotId": "970",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_015.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/970.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/970.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/970.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/970.png"
   },
   {
     "id": "p_016",
@@ -410,10 +455,13 @@
     "headshotId": "192",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_016.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/192.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/192.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/192.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/192.png"
   },
   {
     "id": "p_017",
@@ -436,10 +484,13 @@
     "headshotId": "722",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_017.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/722.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/722.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/722.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/722.png"
   },
   {
     "id": "p_018",
@@ -462,10 +513,13 @@
     "headshotId": "71",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_018.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/71.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/71.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/71.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/71.png"
   },
   {
     "id": "p_019",
@@ -488,10 +542,13 @@
     "headshotId": "171",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_019.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/171.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/171.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/171.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/171.png"
   },
   {
     "id": "p_020",
@@ -514,10 +571,13 @@
     "headshotId": "2518",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_020.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2518.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2518.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2518.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2518.png"
   },
   {
     "id": "p_021",
@@ -540,10 +600,13 @@
     "headshotId": "19",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_021.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/19.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/19.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/19.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/19.png"
   },
   {
     "id": "p_022",
@@ -566,10 +629,13 @@
     "headshotId": "131",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_022.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/131.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/131.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/131.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/131.png"
   },
   {
     "id": "p_023",
@@ -592,10 +658,13 @@
     "headshotId": "128",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_023.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/128.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/128.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/128.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/128.png"
   },
   {
     "id": "p_024",
@@ -618,10 +687,13 @@
     "headshotId": "110",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_024.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/110.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/110.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/110.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/110.png"
   },
   {
     "id": "p_025",
@@ -644,10 +716,13 @@
     "headshotId": "618",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_025.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/618.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/618.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/618.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/618.png"
   },
   {
     "id": "p_026",
@@ -670,10 +745,13 @@
     "headshotId": "51",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_026.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/51.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/51.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/51.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/51.png"
   },
   {
     "id": "p_027",
@@ -696,10 +774,13 @@
     "headshotId": "1580",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_027.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1580.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1580.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1580.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1580.png"
   },
   {
     "id": "p_028",
@@ -722,10 +803,13 @@
     "headshotId": "1017",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_028.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1017.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1017.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1017.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1017.png"
   },
   {
     "id": "p_029",
@@ -748,10 +832,13 @@
     "headshotId": "110",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_029.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/110.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/110.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/110.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/110.png"
   },
   {
     "id": "p_030",
@@ -774,10 +861,13 @@
     "headshotId": "1229",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_030.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1229.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1229.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1229.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1229.png"
   },
   {
     "id": "p_031",
@@ -800,10 +890,13 @@
     "headshotId": "3109",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_031.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3109.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3109.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3109.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3109.png"
   },
   {
     "id": "p_032",
@@ -826,10 +919,13 @@
     "headshotId": "148",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_032.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/148.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/148.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/148.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/148.png"
   },
   {
     "id": "p_033",
@@ -852,10 +948,13 @@
     "headshotId": "31",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_033.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/31.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/31.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/31.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/31.png"
   },
   {
     "id": "p_034",
@@ -878,10 +977,13 @@
     "headshotId": "224",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_034.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/224.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/224.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/224.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/224.png"
   },
   {
     "id": "p_035",
@@ -904,10 +1006,13 @@
     "headshotId": "1462",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_035.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1462.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1462.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1462.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1462.png"
   },
   {
     "id": "p_036",
@@ -930,10 +1035,13 @@
     "headshotId": "608",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_036.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/608.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/608.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/608.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/608.png"
   },
   {
     "id": "p_037",
@@ -956,10 +1064,13 @@
     "headshotId": "99",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_037.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/99.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/99.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/99.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/99.png"
   },
   {
     "id": "p_038",
@@ -982,10 +1093,13 @@
     "headshotId": "382",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_038.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/382.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/382.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/382.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/382.png"
   },
   {
     "id": "p_039",
@@ -1008,10 +1122,13 @@
     "headshotId": "14",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_039.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/14.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/14.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/14.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/14.png"
   },
   {
     "id": "p_040",
@@ -1034,10 +1151,13 @@
     "headshotId": "62",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_040.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/62.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/62.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/62.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/62.png"
   },
   {
     "id": "p_041",
@@ -1060,10 +1180,13 @@
     "headshotId": "182",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_041.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/182.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/182.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/182.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/182.png"
   },
   {
     "id": "p_042",
@@ -1086,10 +1209,13 @@
     "headshotId": "3101",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_042.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3101.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3101.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3101.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3101.png"
   },
   {
     "id": "p_043",
@@ -1112,10 +1238,13 @@
     "headshotId": "534",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_043.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/534.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/534.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/534.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/534.png"
   },
   {
     "id": "p_044",
@@ -1138,10 +1267,13 @@
     "headshotId": "530",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_044.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/530.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/530.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/530.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/530.png"
   },
   {
     "id": "p_045",
@@ -1164,10 +1296,13 @@
     "headshotId": "635",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_045.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/635.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/635.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/635.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/635.png"
   },
   {
     "id": "p_046",
@@ -1190,10 +1325,13 @@
     "headshotId": "976",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_046.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/976.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/976.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/976.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/976.png"
   },
   {
     "id": "p_047",
@@ -1216,10 +1354,13 @@
     "headshotId": "791",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_047.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/791.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/791.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/791.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/791.png"
   },
   {
     "id": "p_048",
@@ -1242,10 +1383,13 @@
     "headshotId": "20",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_048.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/20.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/20.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20.png"
   },
   {
     "id": "p_049",
@@ -1268,10 +1412,13 @@
     "headshotId": "988",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_049.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/988.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/988.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/988.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/988.png"
   },
   {
     "id": "p_050",
@@ -1294,10 +1441,13 @@
     "headshotId": "544",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_050.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/544.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/544.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/544.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/544.png"
   },
   {
     "id": "p_051",
@@ -1320,10 +1470,13 @@
     "headshotId": "165",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_051.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/165.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/165.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/165.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/165.png"
   },
   {
     "id": "p_052",
@@ -1346,10 +1499,13 @@
     "headshotId": "263",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_052.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/263.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/263.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/263.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/263.png"
   },
   {
     "id": "p_053",
@@ -1372,10 +1528,13 @@
     "headshotId": "120",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_053.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/120.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/120.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/120.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/120.png"
   },
   {
     "id": "p_054",
@@ -1398,10 +1557,13 @@
     "headshotId": "590",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_054.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/590.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/590.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/590.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/590.png"
   },
   {
     "id": "p_055",
@@ -1424,10 +1586,13 @@
     "headshotId": "116",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_055.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/116.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/116.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/116.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/116.png"
   },
   {
     "id": "p_056",
@@ -1450,10 +1615,13 @@
     "headshotId": "63",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_056.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/63.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/63.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/63.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/63.png"
   },
   {
     "id": "p_057",
@@ -1476,10 +1644,13 @@
     "headshotId": "150",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_057.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/150.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/150.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/150.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/150.png"
   },
   {
     "id": "p_058",
@@ -1502,10 +1673,13 @@
     "headshotId": "2443",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_058.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2443.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2443.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2443.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2443.png"
   },
   {
     "id": "p_059",
@@ -1528,10 +1702,13 @@
     "headshotId": "1231",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_059.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1231.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1231.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1231.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1231.png"
   },
   {
     "id": "p_060",
@@ -1554,10 +1731,13 @@
     "headshotId": "50",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_060.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/50.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/50.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/50.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/50.png"
   },
   {
     "id": "p_061",
@@ -1580,10 +1760,13 @@
     "headshotId": "3116",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_061.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3116.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3116.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3116.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3116.png"
   },
   {
     "id": "p_062",
@@ -1606,10 +1789,13 @@
     "headshotId": "218",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_062.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/218.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/218.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/218.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/218.png"
   },
   {
     "id": "p_063",
@@ -1632,10 +1818,13 @@
     "headshotId": "44",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_063.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/44.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/44.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/44.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/44.png"
   },
   {
     "id": "p_064",
@@ -1658,10 +1847,13 @@
     "headshotId": "152",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_064.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/152.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/152.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/152.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/152.png"
   },
   {
     "id": "p_065",
@@ -1684,10 +1876,13 @@
     "headshotId": "787",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_065.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/787.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/787.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/787.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/787.png"
   },
   {
     "id": "p_066",
@@ -1710,10 +1905,13 @@
     "headshotId": "16",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_066.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/16.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/16.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/16.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/16.png"
   },
   {
     "id": "p_067",
@@ -1736,10 +1934,13 @@
     "headshotId": "595",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_067.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/595.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/595.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/595.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/595.png"
   },
   {
     "id": "p_068",
@@ -1762,10 +1963,13 @@
     "headshotId": "188",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_068.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/188.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/188.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/188.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/188.png"
   },
   {
     "id": "p_069",
@@ -1788,10 +1992,13 @@
     "headshotId": "82",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_069.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/82.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/82.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/82.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/82.png"
   },
   {
     "id": "p_070",
@@ -1814,10 +2021,13 @@
     "headshotId": "329",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_070.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/329.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/329.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/329.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/329.png"
   },
   {
     "id": "p_071",
@@ -1840,10 +2050,13 @@
     "headshotId": "160",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_071.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/160.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/160.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/160.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/160.png"
   },
   {
     "id": "p_072",
@@ -1866,10 +2079,13 @@
     "headshotId": "550",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_072.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/550.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/550.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/550.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/550.png"
   },
   {
     "id": "p_073",
@@ -1892,10 +2108,13 @@
     "headshotId": "724",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_073.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/724.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/724.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/724.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/724.png"
   },
   {
     "id": "p_074",
@@ -1918,10 +2137,13 @@
     "headshotId": "991",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_074.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/991.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/991.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/991.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/991.png"
   },
   {
     "id": "p_075",
@@ -1944,10 +2166,13 @@
     "headshotId": "156",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_075.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/156.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/156.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/156.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/156.png"
   },
   {
     "id": "p_076",
@@ -1970,10 +2195,13 @@
     "headshotId": "827",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_076.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/827.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/827.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/827.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/827.png"
   },
   {
     "id": "p_077",
@@ -1996,10 +2224,13 @@
     "headshotId": "583",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_077.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/583.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/583.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/583.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/583.png"
   },
   {
     "id": "p_078",
@@ -2022,10 +2253,13 @@
     "headshotId": "1014",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_078.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1014.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1014.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1014.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1014.png"
   },
   {
     "id": "p_079",
@@ -2048,10 +2282,13 @@
     "headshotId": "536",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_079.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/536.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/536.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/536.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/536.png"
   },
   {
     "id": "p_080",
@@ -2074,10 +2311,13 @@
     "headshotId": "1010",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_080.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1010.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1010.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1010.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1010.png"
   },
   {
     "id": "p_081",
@@ -2100,10 +2340,13 @@
     "headshotId": "207",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_081.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/207.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/207.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/207.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/207.png"
   },
   {
     "id": "p_082",
@@ -2126,10 +2369,13 @@
     "headshotId": "637",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_082.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/637.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/637.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/637.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/637.png"
   },
   {
     "id": "p_083",
@@ -2152,10 +2398,13 @@
     "headshotId": "140",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_083.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/140.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/140.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/140.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/140.png"
   },
   {
     "id": "p_084",
@@ -2178,10 +2427,13 @@
     "headshotId": "18",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_084.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/18.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/18.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/18.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/18.png"
   },
   {
     "id": "p_085",
@@ -2204,10 +2456,13 @@
     "headshotId": "287",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_085.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/287.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/287.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/287.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/287.png"
   },
   {
     "id": "p_086",
@@ -2230,10 +2485,13 @@
     "headshotId": "203",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_086.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/203.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/203.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/203.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/203.png"
   },
   {
     "id": "p_087",
@@ -2256,10 +2514,13 @@
     "headshotId": "2805",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_087.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2805.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2805.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2805.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2805.png"
   },
   {
     "id": "p_088",
@@ -2282,10 +2543,13 @@
     "headshotId": "647",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_088.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/647.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/647.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/647.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/647.png"
   },
   {
     "id": "p_089",
@@ -2308,10 +2572,13 @@
     "headshotId": "136",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_089.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/136.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/136.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/136.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/136.png"
   },
   {
     "id": "p_090",
@@ -2334,10 +2601,13 @@
     "headshotId": "40",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_090.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/40.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/40.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/40.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/40.png"
   },
   {
     "id": "p_091",
@@ -2360,10 +2630,13 @@
     "headshotId": "525",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_091.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/525.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/525.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/525.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/525.png"
   },
   {
     "id": "p_092",
@@ -2386,10 +2659,13 @@
     "headshotId": "523",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_092.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/523.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/523.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/523.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/523.png"
   },
   {
     "id": "p_093",
@@ -2412,10 +2688,13 @@
     "headshotId": "2788",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_093.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2788.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2788.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2788.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2788.png"
   },
   {
     "id": "p_094",
@@ -2438,10 +2717,13 @@
     "headshotId": "985",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_094.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/985.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/985.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/985.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/985.png"
   },
   {
     "id": "p_095",
@@ -2464,10 +2746,13 @@
     "headshotId": "47",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_095.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/47.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/47.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/47.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/47.png"
   },
   {
     "id": "p_096",
@@ -2490,10 +2775,13 @@
     "headshotId": "109",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_096.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/109.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/109.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/109.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/109.png"
   },
   {
     "id": "p_097",
@@ -2516,10 +2804,13 @@
     "headshotId": "532",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_097.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/532.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/532.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/532.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/532.png"
   },
   {
     "id": "p_098",
@@ -2542,10 +2833,13 @@
     "headshotId": "3565",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_098.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3565.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3565.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3565.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3565.png"
   },
   {
     "id": "p_099",
@@ -2568,10 +2862,13 @@
     "headshotId": "535",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_099.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/535.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/535.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/535.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/535.png"
   },
   {
     "id": "p_100",
@@ -2594,10 +2891,13 @@
     "headshotId": "1225",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_100.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1225.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1225.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1225.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1225.png"
   },
   {
     "id": "p_101",
@@ -2620,10 +2920,13 @@
     "headshotId": "585",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_101.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/585.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/585.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/585.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/585.png"
   },
   {
     "id": "p_102",
@@ -2646,10 +2949,13 @@
     "headshotId": "142",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_102.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/142.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/142.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/142.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/142.png"
   },
   {
     "id": "p_103",
@@ -2672,10 +2978,13 @@
     "headshotId": "340",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_103.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/340.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/340.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/340.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/340.png"
   },
   {
     "id": "p_104",
@@ -2698,10 +3007,13 @@
     "headshotId": "987",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_104.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/987.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/987.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/987.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/987.png"
   },
   {
     "id": "p_105",
@@ -2724,10 +3036,13 @@
     "headshotId": "541",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_105.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/541.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/541.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/541.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/541.png"
   },
   {
     "id": "p_106",
@@ -2750,10 +3065,13 @@
     "headshotId": "6",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_106.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/6.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/6.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/6.png"
   },
   {
     "id": "p_107",
@@ -2776,10 +3094,13 @@
     "headshotId": "174",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_107.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/174.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/174.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/174.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/174.png"
   },
   {
     "id": "p_108",
@@ -2802,10 +3123,13 @@
     "headshotId": "3103",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_108.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3103.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3103.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3103.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3103.png"
   },
   {
     "id": "p_109",
@@ -2828,10 +3152,13 @@
     "headshotId": "122",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_109.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/122.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/122.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/122.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/122.png"
   },
   {
     "id": "p_110",
@@ -2854,10 +3181,13 @@
     "headshotId": "743",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_110.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/743.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/743.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/743.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/743.png"
   },
   {
     "id": "p_111",
@@ -2880,10 +3210,13 @@
     "headshotId": "170",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_111.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/170.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/170.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/170.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/170.png"
   },
   {
     "id": "p_112",
@@ -2906,10 +3239,13 @@
     "headshotId": "993",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_112.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/993.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/993.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/993.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/993.png"
   },
   {
     "id": "p_113",
@@ -2932,10 +3268,13 @@
     "headshotId": "54",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_113.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/54.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/54.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/54.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/54.png"
   },
   {
     "id": "p_114",
@@ -2958,10 +3297,13 @@
     "headshotId": "3107",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_114.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3107.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3107.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3107.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3107.png"
   },
   {
     "id": "p_115",
@@ -2984,10 +3326,13 @@
     "headshotId": "75",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_115.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/75.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/75.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/75.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/75.png"
   },
   {
     "id": "p_116",
@@ -3010,10 +3355,13 @@
     "headshotId": "781",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_116.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/781.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/781.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/781.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/781.png"
   },
   {
     "id": "p_117",
@@ -3036,10 +3384,13 @@
     "headshotId": "1041",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_117.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1041.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1041.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1041.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1041.png"
   },
   {
     "id": "p_118",
@@ -3062,10 +3413,13 @@
     "headshotId": "1941",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_118.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1941.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1941.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1941.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1941.png"
   },
   {
     "id": "p_119",
@@ -3088,10 +3442,13 @@
     "headshotId": "105",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_119.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/105.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/105.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/105.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/105.png"
   },
   {
     "id": "p_120",
@@ -3114,10 +3471,13 @@
     "headshotId": "66",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_120.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/66.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/66.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/66.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/66.png"
   },
   {
     "id": "p_121",
@@ -3140,10 +3500,13 @@
     "headshotId": "87",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_121.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/87.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/87.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/87.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/87.png"
   },
   {
     "id": "p_122",
@@ -3166,10 +3529,13 @@
     "headshotId": "91",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_122.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/91.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/91.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/91.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/91.png"
   },
   {
     "id": "p_123",
@@ -3192,10 +3558,13 @@
     "headshotId": "3569",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_123.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3569.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3569.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3569.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3569.png"
   },
   {
     "id": "p_124",
@@ -3218,10 +3587,13 @@
     "headshotId": "3869",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_124.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3869.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3869.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3869.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3869.png"
   },
   {
     "id": "p_125",
@@ -3244,10 +3616,13 @@
     "headshotId": "2761",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_125.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2761.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2761.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2761.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2761.png"
   },
   {
     "id": "p_126",
@@ -3270,10 +3645,13 @@
     "headshotId": "9",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_126.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/9.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/9.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/9.png"
   },
   {
     "id": "p_127",
@@ -3296,10 +3674,13 @@
     "headshotId": "12",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_127.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/12.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/12.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/12.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/12.png"
   },
   {
     "id": "p_128",
@@ -3322,10 +3703,13 @@
     "headshotId": "1541",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_128.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1541.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1541.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1541.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1541.png"
   },
   {
     "id": "p_129",
@@ -3348,10 +3732,13 @@
     "headshotId": "581",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_129.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/581.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/581.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/581.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/581.png"
   },
   {
     "id": "p_130",
@@ -3374,10 +3761,13 @@
     "headshotId": "784",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_130.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/784.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/784.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/784.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/784.png"
   },
   {
     "id": "p_131",
@@ -3400,10 +3790,13 @@
     "headshotId": "3573",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_131.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3573.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3573.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3573.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3573.png"
   },
   {
     "id": "p_132",
@@ -3426,10 +3819,13 @@
     "headshotId": "137",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_132.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/137.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/137.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/137.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/137.png"
   },
   {
     "id": "p_133",
@@ -3452,10 +3848,13 @@
     "headshotId": "191",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_133.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/191.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/191.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/191.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/191.png"
   },
   {
     "id": "p_134",
@@ -3478,10 +3877,13 @@
     "headshotId": "23",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_134.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/23.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/23.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/23.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/23.png"
   },
   {
     "id": "p_135",
@@ -3504,10 +3906,13 @@
     "headshotId": "130",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_135.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/130.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/130.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/130.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/130.png"
   },
   {
     "id": "p_136",
@@ -3530,10 +3935,13 @@
     "headshotId": "586",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_136.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/586.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/586.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/586.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/586.png"
   },
   {
     "id": "p_137",
@@ -3556,10 +3964,13 @@
     "headshotId": "1354",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_137.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1354.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1354.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1354.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1354.png"
   },
   {
     "id": "p_138",
@@ -3582,10 +3993,13 @@
     "headshotId": "3571",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_138.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3571.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3571.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3571.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3571.png"
   },
   {
     "id": "p_139",
@@ -3608,10 +4022,13 @@
     "headshotId": "2813",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_139.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2813.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2813.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2813.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2813.png"
   },
   {
     "id": "p_140",
@@ -3634,10 +4051,13 @@
     "headshotId": "2146",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_140.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2146.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2146.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2146.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2146.png"
   },
   {
     "id": "p_141",
@@ -3660,10 +4080,13 @@
     "headshotId": "3870",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_141.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3870.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3870.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3870.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3870.png"
   },
   {
     "id": "p_142",
@@ -3686,10 +4109,13 @@
     "headshotId": "848",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_142.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/848.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/848.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/848.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/848.png"
   },
   {
     "id": "p_143",
@@ -3712,10 +4138,13 @@
     "headshotId": "632",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_143.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/632.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/632.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/632.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/632.png"
   },
   {
     "id": "p_144",
@@ -3738,10 +4167,13 @@
     "headshotId": "125",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_144.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/125.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/125.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/125.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/125.png"
   },
   {
     "id": "p_145",
@@ -3764,10 +4196,13 @@
     "headshotId": "10",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_145.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/10.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/10.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/10.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/10.png"
   },
   {
     "id": "p_146",
@@ -3790,10 +4225,13 @@
     "headshotId": "2034",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_146.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2034.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2034.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2034.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2034.png"
   },
   {
     "id": "p_147",
@@ -3816,10 +4254,13 @@
     "headshotId": "1550",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_147.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1550.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1550.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1550.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1550.png"
   },
   {
     "id": "p_148",
@@ -3842,10 +4283,13 @@
     "headshotId": "3572",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_148.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3572.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3572.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3572.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3572.png"
   },
   {
     "id": "p_149",
@@ -3868,10 +4312,13 @@
     "headshotId": "69",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_149.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/69.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/69.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/69.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/69.png"
   },
   {
     "id": "p_150",
@@ -3894,10 +4341,13 @@
     "headshotId": "3112",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_150.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3112.png",
     "starValue": 1,
-    "starRating": "\u2b50",
-    "starLabel": "1-STAR EMERGING"
+    "starRating": "⭐",
+    "starLabel": "1-STAR EMERGING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3112.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3112.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3112.png"
   },
   {
     "id": "p_151",
@@ -3920,10 +4370,13 @@
     "headshotId": "3498",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_151.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3498.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3498.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3498.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3498.png"
   },
   {
     "id": "p_152",
@@ -3946,10 +4399,13 @@
     "headshotId": "2033",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_152.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2033.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2033.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2033.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2033.png"
   },
   {
     "id": "p_153",
@@ -3972,10 +4428,13 @@
     "headshotId": "2827",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_153.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2827.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2827.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2827.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2827.png"
   },
   {
     "id": "p_154",
@@ -3998,10 +4457,13 @@
     "headshotId": "210",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_154.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/210.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/210.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/210.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/210.png"
   },
   {
     "id": "p_155",
@@ -4024,10 +4486,13 @@
     "headshotId": "533",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_155.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/533.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/533.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/533.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/533.png"
   },
   {
     "id": "p_156",
@@ -4050,10 +4515,13 @@
     "headshotId": "1004",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_156.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1004.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1004.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1004.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1004.png"
   },
   {
     "id": "p_157",
@@ -4076,10 +4544,13 @@
     "headshotId": "189",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_157.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/189.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/189.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/189.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/189.png"
   },
   {
     "id": "p_158",
@@ -4102,10 +4573,13 @@
     "headshotId": "587",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_158.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/587.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/587.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/587.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/587.png"
   },
   {
     "id": "p_159",
@@ -4128,10 +4602,13 @@
     "headshotId": "46",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_159.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/46.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/46.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/46.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/46.png"
   },
   {
     "id": "p_160",
@@ -4154,10 +4631,13 @@
     "headshotId": "375",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_160.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/375.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/375.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/375.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/375.png"
   },
   {
     "id": "p_161",
@@ -4180,10 +4660,13 @@
     "headshotId": "181",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_161.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/181.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/181.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/181.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/181.png"
   },
   {
     "id": "p_162",
@@ -4206,10 +4689,13 @@
     "headshotId": "539",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_162.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/539.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/539.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/539.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/539.png"
   },
   {
     "id": "p_163",
@@ -4232,10 +4718,13 @@
     "headshotId": "801",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_163.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/801.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/801.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/801.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/801.png"
   },
   {
     "id": "p_164",
@@ -4258,10 +4747,13 @@
     "headshotId": "520",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_164.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/520.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/520.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/520.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/520.png"
   },
   {
     "id": "p_165",
@@ -4284,10 +4776,13 @@
     "headshotId": "157",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_165.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/157.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/157.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/157.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/157.png"
   },
   {
     "id": "p_166",
@@ -4310,10 +4805,13 @@
     "headshotId": "1005",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_166.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1005.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1005.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1005.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1005.png"
   },
   {
     "id": "p_167",
@@ -4336,10 +4834,13 @@
     "headshotId": "220",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_167.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/220.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/220.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/220.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/220.png"
   },
   {
     "id": "p_168",
@@ -4362,10 +4863,13 @@
     "headshotId": "2806",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_168.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2806.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2806.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2806.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2806.png"
   },
   {
     "id": "p_169",
@@ -4388,10 +4892,13 @@
     "headshotId": "597",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_169.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/597.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/597.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/597.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/597.png"
   },
   {
     "id": "p_170",
@@ -4414,10 +4921,13 @@
     "headshotId": "200",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_170.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/200.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/200.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/200.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/200.png"
   },
   {
     "id": "p_171",
@@ -4440,10 +4950,13 @@
     "headshotId": "2",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_171.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2.png"
   },
   {
     "id": "p_172",
@@ -4466,10 +4979,13 @@
     "headshotId": "1220",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_172.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1220.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1220.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1220.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1220.png"
   },
   {
     "id": "p_173",
@@ -4492,10 +5008,13 @@
     "headshotId": "1000",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_173.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1000.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1000.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1000.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1000.png"
   },
   {
     "id": "p_174",
@@ -4518,10 +5037,13 @@
     "headshotId": "3372",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_174.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3372.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3372.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3372.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3372.png"
   },
   {
     "id": "p_175",
@@ -4544,10 +5066,13 @@
     "headshotId": "17",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_175.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/17.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/17.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/17.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/17.png"
   },
   {
     "id": "p_176",
@@ -4570,10 +5095,13 @@
     "headshotId": "1483",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_176.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1483.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1483.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1483.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1483.png"
   },
   {
     "id": "p_177",
@@ -4596,10 +5124,13 @@
     "headshotId": "636",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_177.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/636.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/636.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/636.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/636.png"
   },
   {
     "id": "p_178",
@@ -4622,10 +5153,13 @@
     "headshotId": "371",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_178.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/371.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/371.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/371.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/371.png"
   },
   {
     "id": "p_179",
@@ -4648,10 +5182,13 @@
     "headshotId": "869",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_179.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/869.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/869.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/869.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/869.png"
   },
   {
     "id": "p_180",
@@ -4674,10 +5211,13 @@
     "headshotId": "584",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_180.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/584.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/584.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/584.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/584.png"
   },
   {
     "id": "p_181",
@@ -4700,10 +5240,13 @@
     "headshotId": "36",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_181.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/36.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/36.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/36.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/36.png"
   },
   {
     "id": "p_182",
@@ -4726,10 +5269,13 @@
     "headshotId": "172",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_182.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/172.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/172.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/172.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/172.png"
   },
   {
     "id": "p_183",
@@ -4752,10 +5298,13 @@
     "headshotId": "1932",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_183.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1932.png",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1932.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1932.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1932.png"
   },
   {
     "id": "p_184",
@@ -4778,10 +5327,13 @@
     "headshotId": "15",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_184.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/15.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/15.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/15.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/15.png"
   },
   {
     "id": "p_185",
@@ -4804,10 +5356,13 @@
     "headshotId": "813",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_185.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/813.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/813.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/813.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/813.png"
   },
   {
     "id": "p_186",
@@ -4830,10 +5385,13 @@
     "headshotId": "3574",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_186.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3574.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3574.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3574.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3574.png"
   },
   {
     "id": "p_187",
@@ -4856,10 +5414,13 @@
     "headshotId": "1701",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_187.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1701.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1701.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1701.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1701.png"
   },
   {
     "id": "p_188",
@@ -4882,10 +5443,13 @@
     "headshotId": "978",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_188.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/978.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/978.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/978.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/978.png"
   },
   {
     "id": "p_189",
@@ -4908,10 +5472,13 @@
     "headshotId": "164",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_189.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/164.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/164.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/164.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/164.png"
   },
   {
     "id": "p_190",
@@ -4934,10 +5501,13 @@
     "headshotId": "3576",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_190.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3576.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3576.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3576.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3576.png"
   },
   {
     "id": "p_191",
@@ -4960,10 +5530,13 @@
     "headshotId": "3752",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_191.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3752.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3752.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3752.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3752.png"
   },
   {
     "id": "p_192",
@@ -4986,10 +5559,13 @@
     "headshotId": "202",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_192.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/202.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/202.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/202.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/202.png"
   },
   {
     "id": "p_193",
@@ -5012,10 +5588,13 @@
     "headshotId": "37",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_193.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/37.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/37.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/37.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/37.png"
   },
   {
     "id": "p_194",
@@ -5038,10 +5617,13 @@
     "headshotId": "114",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_194.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/114.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/114.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/114.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/114.png"
   },
   {
     "id": "p_195",
@@ -5064,10 +5646,13 @@
     "headshotId": "627",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_195.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/627.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/627.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/627.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/627.png"
   },
   {
     "id": "p_196",
@@ -5090,10 +5675,13 @@
     "headshotId": "1494",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_196.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1494.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1494.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1494.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1494.png"
   },
   {
     "id": "p_197",
@@ -5116,10 +5704,13 @@
     "headshotId": "1221",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_197.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1221.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1221.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1221.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1221.png"
   },
   {
     "id": "p_198",
@@ -5142,10 +5733,13 @@
     "headshotId": "183",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_198.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/183.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/183.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/183.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/183.png"
   },
   {
     "id": "p_199",
@@ -5168,10 +5762,13 @@
     "headshotId": "5007",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_199.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/5007.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/5007.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5007.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/5007.png"
   },
   {
     "id": "p_200",
@@ -5194,10 +5791,13 @@
     "headshotId": "212",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_200.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/212.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/212.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/212.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/212.png"
   },
   {
     "id": "p_201",
@@ -5220,10 +5820,13 @@
     "headshotId": "1944",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_201.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1944.png",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1944.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1944.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1944.png"
   },
   {
     "id": "p_202",
@@ -5246,10 +5849,13 @@
     "headshotId": "33",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_202.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/33.png",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/33.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/33.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/33.png"
   },
   {
     "id": "p_203",
@@ -5272,10 +5878,13 @@
     "headshotId": "3575",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_203.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3575.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3575.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3575.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3575.png"
   },
   {
     "id": "p_204",
@@ -5298,10 +5907,13 @@
     "headshotId": "180",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_204.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/180.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/180.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/180.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/180.png"
   },
   {
     "id": "p_205",
@@ -5324,10 +5936,13 @@
     "headshotId": "3339",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_205.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3339.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3339.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3339.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/3339.png"
   },
   {
     "id": "p_206",
@@ -5350,10 +5965,13 @@
     "headshotId": "154",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 team squad",
-    "imageUrl": "/assets/players/p_206.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/154.png",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/154.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/154.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/154.png"
   },
   {
     "id": "p_207",
@@ -5372,13 +5990,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_207.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/974.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "974",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/974.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/974.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/974.png"
   },
   {
     "name": "Adam Zampa",
@@ -5399,11 +6020,14 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_208.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/24.png",
     "headshotId": "24",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/24.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/24.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/24.png"
   },
   {
     "id": "p_209",
@@ -5422,13 +6046,15 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_209.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1480.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
-    "headshotId": null,
+    "headshotId": "1480",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1480.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1480.png"
   },
   {
     "id": "p_210",
@@ -5447,13 +6073,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_210.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1045.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "1045",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1045.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1045.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1045.png"
   },
   {
     "name": "Albie Morkel",
@@ -5474,11 +6103,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_211.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/808.png",
+    "headshotId": "808",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/808.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/808.png"
   },
   {
     "name": "Andre Russell",
@@ -5499,11 +6130,14 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_212.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/141.png",
     "headshotId": "141",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/141.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/141.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/141.png"
   },
   {
     "id": "p_213",
@@ -5522,13 +6156,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_213.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1001.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "1001",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1001.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1001.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1001.png"
   },
   {
     "name": "Ben stokes",
@@ -5549,11 +6186,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_214.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1154.png",
+    "headshotId": "1154",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1154.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1154.png"
   },
   {
     "id": "p_215",
@@ -5572,13 +6211,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_215.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/605.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "605",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/605.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/605.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/605.png"
   },
   {
     "id": "p_216",
@@ -5597,13 +6239,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_216.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/592.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "592",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/592.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/592.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/592.png"
   },
   {
     "name": "Chris Gayle",
@@ -5624,11 +6269,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_217.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/236.png",
+    "headshotId": "236",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/236.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/236.png"
   },
   {
     "name": "Chris Lynn",
@@ -5649,11 +6296,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_218.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/179.png",
+    "headshotId": "179",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/179.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/179.png"
   },
   {
     "name": "Chris Morris",
@@ -5674,11 +6323,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_219.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/834.png",
+    "headshotId": "834",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/834.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/834.png"
   },
   {
     "name": "Darren Sammy",
@@ -5699,11 +6350,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_220.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/902.png",
+    "headshotId": "902",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/902.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/902.png"
   },
   {
     "id": "p_221",
@@ -5722,13 +6375,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_221.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/215.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "215",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/215.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/215.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/215.png"
   },
   {
     "id": "p_222",
@@ -5747,13 +6403,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_222.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/601.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "601",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/601.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/601.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/601.png"
   },
   {
     "name": "Dwayne Smith",
@@ -5774,11 +6433,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_223.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/897.png",
+    "headshotId": "897",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/897.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/897.png"
   },
   {
     "name": "Eoin Morgan",
@@ -5799,11 +6460,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_224.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/197.png",
+    "headshotId": "197",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/197.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/197.png"
   },
   {
     "id": "p_225",
@@ -5822,13 +6485,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_225.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/94.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "94",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/94.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/94.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/94.png"
   },
   {
     "id": "p_226",
@@ -5847,13 +6513,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_226.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1011.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "1011",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1011.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1011.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1011.png"
   },
   {
     "name": "George Bailey",
@@ -5874,11 +6543,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_227.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/809.png",
+    "headshotId": "809",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/809.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/809.png"
   },
   {
     "id": "p_228",
@@ -5897,13 +6568,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_228.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2535.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "2535",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/2535.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2535.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/2535.png"
   },
   {
     "id": "p_229",
@@ -5922,13 +6596,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_229.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/28.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "28",
     "starValue": 5,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "5-STAR ICON"
+    "starRating": "⭐⭐⭐⭐⭐",
+    "starLabel": "5-STAR ICON",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/28.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/28.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/28.png"
   },
   {
     "name": "Harbhajan Singh",
@@ -5949,11 +6626,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_230.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/104.png",
+    "headshotId": "104",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/104.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/104.png"
   },
   {
     "id": "p_231",
@@ -5972,13 +6651,15 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_231.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/20590.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
-    "headshotId": null,
+    "headshotId": "20590",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/20590.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20590.png"
   },
   {
     "name": "Harshit Rana",
@@ -5999,11 +6680,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_232.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/20594.png",
+    "headshotId": "20594",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/20594.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/20594.png"
   },
   {
     "name": "Imran Tahir",
@@ -6024,11 +6707,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_233.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/894.png",
+    "headshotId": "894",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/894.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/894.png"
   },
   {
     "name": "James Faulkner",
@@ -6049,11 +6734,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_234.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/814.png",
+    "headshotId": "814",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/814.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/814.png"
   },
   {
     "id": "p_235",
@@ -6072,13 +6759,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_235.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/216.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "216",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/216.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/216.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/216.png"
   },
   {
     "name": "Jp duminy",
@@ -6099,11 +6789,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_236.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/810.png",
+    "headshotId": "810",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/810.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/810.png"
   },
   {
     "id": "p_237",
@@ -6122,13 +6814,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_237.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/146.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "146",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/146.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/146.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/146.png"
   },
   {
     "name": "Kane Williamson",
@@ -6149,11 +6844,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_238.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/440.png",
+    "headshotId": "440",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/440.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/440.png"
   },
   {
     "id": "p_239",
@@ -6172,13 +6869,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_239.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/98.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "98",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/98.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/98.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/98.png"
   },
   {
     "name": "Kedar Jadhav",
@@ -6199,11 +6899,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_240.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/161.png",
+    "headshotId": "161",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/161.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/161.png"
   },
   {
     "id": "p_241",
@@ -6222,13 +6924,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_241.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/276.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "276",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/276.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/276.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/276.png"
   },
   {
     "id": "p_242",
@@ -6247,13 +6952,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_242.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/629.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "629",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/629.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/629.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/629.png"
   },
   {
     "id": "p_243",
@@ -6272,13 +6980,16 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_243.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/184.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
     "headshotId": "184",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/184.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/184.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/184.png"
   },
   {
     "id": "p_244",
@@ -6297,13 +7008,15 @@
     "currentTeam": "POOL",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_244.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1085.png",
     "currentTeamName": "Additional Auction Pool",
     "teamSlug": "",
-    "headshotId": null,
+    "headshotId": "1085",
     "starValue": 2,
-    "starRating": "\u2b50\u2b50",
-    "starLabel": "2-STAR RISING"
+    "starRating": "⭐⭐",
+    "starLabel": "2-STAR RISING",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1085.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1085.png"
   },
   {
     "name": "Mitchell Johnson",
@@ -6324,11 +7037,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_245.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1090.png",
+    "headshotId": "1090",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1090.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1090.png"
   },
   {
     "name": "Mitchell Mcclenaghan",
@@ -6349,11 +7064,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_246.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1093.png",
+    "headshotId": "1093",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/1093.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/1093.png"
   },
   {
     "name": "Moeen Ali",
@@ -6374,11 +7091,14 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_247.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/206.png",
     "headshotId": "206",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/206.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/206.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/206.png"
   },
   {
     "name": "Mohit Sharma",
@@ -6399,11 +7119,14 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_248.svg",
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/100.png",
     "headshotId": "100",
     "starValue": 4,
-    "starRating": "\u2b50\u2b50\u2b50\u2b50",
-    "starLabel": "4-STAR ELITE"
+    "starRating": "⭐⭐⭐⭐",
+    "starLabel": "4-STAR ELITE",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/100.png",
+    "fallbackPhotoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/100.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/100.png"
   },
   {
     "name": "Morne Morkel",
@@ -6424,11 +7147,13 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_249.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/196.png",
+    "headshotId": "196",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/196.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/196.png"
   },
   {
     "name": "Murali Vijay",
@@ -6449,10 +7174,12 @@
     "teamSlug": "",
     "dataSeason": "2026",
     "dataSource": "IPL 2026 auction pool / player archive",
-    "imageUrl": "/assets/players/p_250.svg",
-    "headshotId": null,
+    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/43.png",
+    "headshotId": "43",
     "starValue": 3,
-    "starRating": "\u2b50\u2b50\u2b50",
-    "starLabel": "3-STAR PRO"
+    "starRating": "⭐⭐⭐",
+    "starLabel": "3-STAR PRO",
+    "photoUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/43.png",
+    "photoFallbackUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/43.png"
   }
 ]

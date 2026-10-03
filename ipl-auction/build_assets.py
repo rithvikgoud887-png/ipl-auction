@@ -44,11 +44,37 @@ window.getTeamLogoSrc = function(teamId) {{
 }};
 
 window.getPlayerAvatarSrc = function(playerId) {{
-  if (!playerId) return window.ASSET_PLAYER_AVATARS['p_01'] || '/assets/players/p_01.svg';
+  if (!playerId) return window.ASSET_PLAYER_AVATARS['p_001'] || '/assets/players/generic.svg';
   return window.ASSET_PLAYER_AVATARS[playerId] || `/assets/players/${{playerId}}.svg`;
 }};
 
-console.log("⚡ [Assets] Loaded 10 Official Franchise Vector Logos and 60 Player Avatars directly into memory.");
+window.getPlayerPhotoSrc = function(p) {{
+  if (!p) return '/assets/players/generic.svg';
+  var obj = (typeof p === 'object') ? p : null;
+  if (obj) {{
+    if (obj.imageUrl && obj.imageUrl.startsWith('http')) return obj.imageUrl;
+    if (obj.photoUrl && obj.photoUrl.startsWith('http')) return obj.photoUrl;
+    if (obj.headshotId) return 'https://documents.iplt20.com/ipl/IPLHeadshot2025/' + obj.headshotId + '.png';
+  }}
+  var pId = (typeof p === 'object') ? p.id : p;
+  return (window.ASSET_PLAYER_AVATARS && window.ASSET_PLAYER_AVATARS[pId]) || '/assets/players/' + pId + '.svg';
+}};
+
+window.handlePlayerImgError = function(imgEl, headshotId, pId) {{
+  if (!imgEl) return;
+  var src = imgEl.src || '';
+  if (src.indexOf('IPLHeadshot2025') !== -1 && headshotId) {{
+    imgEl.src = 'https://documents.iplt20.com/ipl/IPLHeadshot2024/' + headshotId + '.png';
+  }} else if (src.indexOf('IPLHeadshot2024') !== -1 && headshotId) {{
+    imgEl.src = 'https://documents.iplt20.com/ipl/IPLHeadshot2023/' + headshotId + '.png';
+  }} else {{
+    var fallback = (window.ASSET_PLAYER_AVATARS && pId && window.ASSET_PLAYER_AVATARS[pId]) || '/assets/players/' + (pId || 'generic') + '.svg';
+    imgEl.onerror = function() {{ this.src = '/assets/players/generic.svg'; }};
+    imgEl.src = fallback;
+  }}
+}};
+
+console.log("⚡ [Assets] Loaded 10 Official Franchise Vector Logos, 250 Player Avatars, and Photo Engine.");
 """
 
 with open(OUT_JS, "w", encoding="utf-8") as f:

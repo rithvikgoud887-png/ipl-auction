@@ -656,9 +656,15 @@ function renderArena(roomState) {
     document.getElementById("playerNameDisplay").textContent = p.name;
     const portraitEl = document.getElementById("playerPortrait");
     if (portraitEl) {
-      portraitEl.src = window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || "/assets/players/generic.svg");
-      portraitEl.alt = `${p.name} profile photo`;
-      portraitEl.onerror = () => { portraitEl.src = "/assets/players/generic.svg"; };
+      portraitEl.src = window.getPlayerPhotoSrc ? window.getPlayerPhotoSrc(p) : (p.imageUrl || "/assets/players/generic.svg");
+      portraitEl.alt = `${p.name} photo`;
+      portraitEl.onerror = function() {
+        if (window.handlePlayerImgError) {
+          window.handlePlayerImgError(this, p.headshotId, p.id);
+        } else {
+          this.src = "/assets/players/generic.svg";
+        }
+      };
     }
 
     document.getElementById("playerCountryFlag").textContent = `${p.overseas ? '✈️' : '🇮🇳'} ${p.country.toUpperCase()}`;
@@ -836,7 +842,7 @@ function renderQueuePeek(roomState) {
     .map(
       (p) => `
         <div class="queue-item">
-          <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="queue-item-thumb" alt="${p.name}" onerror="this.src='/assets/players/generic.svg'">
+          <img src="${window.getPlayerPhotoSrc ? window.getPlayerPhotoSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="queue-item-thumb" alt="${p.name}" onerror="if (window.handlePlayerImgError) window.handlePlayerImgError(this, '${p.headshotId || ''}', '${p.id || ''}'); else this.src='/assets/players/generic.svg';">
           <div class="queue-item-info">
             <span class="queue-item-name">${p.name}</span>
             <span class="queue-item-star">${'⭐'.repeat(p.starValue || 3)}</span>
@@ -1036,7 +1042,7 @@ function renderAllPlayersPool() {
       return `
         <div class="${cardClass}">
           <div class="pool-player-left">
-            <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="pool-player-avatar" alt="${p.name}" onerror="this.src='/assets/players/generic.svg'">
+            <img src="${window.getPlayerPhotoSrc ? window.getPlayerPhotoSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="pool-player-avatar" alt="${p.name}" onerror="if (window.handlePlayerImgError) window.handlePlayerImgError(this, '${p.headshotId || ''}', '${p.id || ''}'); else this.src='/assets/players/generic.svg';">
             <div>
               <div class="pool-player-name">${p.name} <span class="badge-star-mini">${p.starValue || 3}★</span> ${p.overseas ? '✈️' : '🇮🇳'}</div>
               <div class="pool-player-meta"><span style="color: #ffd700;">${'⭐'.repeat(p.starValue || 3)}</span> • ${p.role} • ${p.auctionCategory || 'Pool'}</div>
