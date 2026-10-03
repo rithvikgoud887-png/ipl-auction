@@ -255,7 +255,6 @@ function setupHostControls() {
   const pauseBtn = document.getElementById("pauseAuctionBtn");
   const resumeBtn = document.getElementById("resumeAuctionBtn");
   const skipBtn = document.getElementById("skipPlayerBtn");
-  const undoBtn = document.getElementById("undoSaleBtn");
   const manualNextBtn = document.getElementById("manualNextBtn");
   const startUnsoldBtn = document.getElementById("btnStartUnsoldRound");
   const closeSoldBtn = document.getElementById("closePlayerSoldBtn");
@@ -280,14 +279,6 @@ function setupHostControls() {
     skipBtn.addEventListener("click", () => {
       if (confirm("Are you sure you want to skip this player?")) {
         window.auctionSocket.send("SKIP_PLAYER", {});
-      }
-    });
-  }
-
-  if (undoBtn) {
-    undoBtn.addEventListener("click", () => {
-      if (confirm("Undo the last sale? This will refund the purse and restore the player.")) {
-        window.auctionSocket.send("UNDO_LAST_SALE", {});
       }
     });
   }
@@ -349,10 +340,12 @@ function setupNavigationHandlers() {
   // Filter inputs inside All Players Pool
   const poolSearch = document.getElementById("poolSearchInput");
   const poolRole = document.getElementById("poolRoleFilter");
+  const poolStar = document.getElementById("poolStarFilter");
   const poolStatus = document.getElementById("poolStatusFilter");
 
   if (poolSearch) poolSearch.addEventListener("input", renderAllPlayersPool);
   if (poolRole) poolRole.addEventListener("change", renderAllPlayersPool);
+  if (poolStar) poolStar.addEventListener("change", renderAllPlayersPool);
   if (poolStatus) poolStatus.addEventListener("change", renderAllPlayersPool);
 
   // Complete View Tabs
@@ -475,11 +468,6 @@ function setupSocketListeners() {
     const resumeBtn = document.getElementById("resumeAuctionBtn");
     if (pauseBtn) pauseBtn.classList.remove("hidden");
     if (resumeBtn) resumeBtn.classList.add("hidden");
-  });
-
-  sock.on("SALE_UNDONE", (data) => {
-    showNotification(`Sale undone: ${data.player.name} refunded to ${data.team.shortName}.`);
-    if (state.activeArenaSubTab === "arenaPlayersTab") renderAllPlayersPool();
   });
 
   sock.on("AUCTION_COMPLETE", () => {
@@ -675,6 +663,14 @@ function renderArena(roomState) {
 
     document.getElementById("playerCountryFlag").textContent = `${p.overseas ? '✈️' : '🇮🇳'} ${p.country.toUpperCase()}`;
     document.getElementById("playerSetTag").textContent = (p.auctionCategory || "AUCTION POOL").toUpperCase();
+    
+    const starBadge = document.getElementById("playerStarBadge");
+    if (starBadge) {
+      const stars = p.starValue || 3;
+      const label = p.starLabel || `${stars}-STAR`;
+      starBadge.textContent = `${'⭐'.repeat(stars)} ${label}`;
+    }
+
     document.getElementById("playerCappedBadge").textContent = p.capped ? "CAPPED" : "UNCAPPED";
     document.getElementById("playerRoleBadge").textContent = p.role.toUpperCase();
     document.getElementById("playerCurrentTeam").textContent = p.currentTeam && p.currentTeam !== "POOL" ? `2026 IPL SQUAD · ${p.currentTeam}` : "ADDITIONAL AUCTION POOL";
@@ -827,7 +823,9 @@ function renderQueuePeek(roomState) {
   if (!previewList) return;
 
   const currentIdx = roomState.queueIndex;
-  const upcoming = state.allPlayers.slice(currentIdx + 1, currentIdx + 5);
+  const upcoming = (roomState.upcomingQueue && roomState.upcomingQueue.length > 0)
+    ? roomState.upcomingQueue
+    : state.allPlayers.slice(currentIdx + 1, currentIdx + 6);
 
   if (upcoming.length === 0) {
     previewList.innerHTML = `<div class="empty-state-text">Final player in queue!</div>`;
@@ -839,7 +837,10 @@ function renderQueuePeek(roomState) {
       (p) => `
         <div class="queue-item">
           <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="queue-item-thumb" alt="${p.name}" onerror="this.src='/assets/players/generic.svg'">
-          <span class="queue-item-name">${p.name}</span>
+          <div class="queue-item-info">
+            <span class="queue-item-name">${p.name}</span>
+            <span class="queue-item-star">${'⭐'.repeat(p.starValue || 3)}</span>
+          </div>
           <span class="queue-item-price">${formatCrore(p.reservePrice)}</span>
         </div>
       `
@@ -960,9 +961,16 @@ function renderAllPlayersPool() {
   const container = document.getElementById("poolGridContainer");
   const search = document.getElementById("poolSearchInput")?.value.toLowerCase() || "";
   const role = document.getElementById("poolRoleFilter")?.value || "ALL";
+  const starFilter = document.getElementById("poolStarFilter")?.value || "ALL";
   const status = document.getElementById("poolStatusFilter")?.value || "ALL";
 
   if (!container || !state.allPlayers) return;
+
+  // If active room has a specific shuffled queue order, sort allPlayers to match it
+  if (state.roomState && state.roomState.queueOrder && state.roomState.queueOrder.length > 0) {
+    const orderMap = new Map(state.roomState.queueOrder.map((id, index) => [id, index]));
+    state.allPlayers.sort((a, b) => (orderMap.get(a.id) ?? 9999) - (orderMap.get(b.id) ?? 9999));
+  }
 
   // Build map of sold players from transactions
   const txMap = {};
@@ -974,11 +982,12 @@ function renderAllPlayersPool() {
 
   // Set of unsold players
   const currentPid = state.roomState?.currentPlayer?.id;
-  const queueIdx = state.roomState?.queueIndex || 0;
+  const queueIdx = state.roomState?.queueIndex ?? -1;
 
   const filtered = state.allPlayers.filter((p, idx) => {
     const matchName = p.name.toLowerCase().includes(search) || p.country.toLowerCase().includes(search);
     const matchRole = role === "ALL" || p.role === role;
+    const matchStar = starFilter === "ALL" || String(p.starValue) === starFilter;
 
     // Determine status
     let playerStatus = "UPCOMING";
@@ -986,12 +995,12 @@ function renderAllPlayersPool() {
       playerStatus = "SOLD";
     } else if (p.id === currentPid) {
       playerStatus = "CURRENT";
-    } else if (idx < queueIdx && !txMap[p.id]) {
+    } else if (idx <= queueIdx && !txMap[p.id]) {
       playerStatus = "UNSOLD";
     }
 
     const matchStatus = status === "ALL" || status === playerStatus;
-    return matchName && matchRole && matchStatus;
+    return matchName && matchRole && matchStar && matchStatus;
   });
 
   const poolCountEl = document.getElementById("poolTotalCount");
@@ -1017,7 +1026,7 @@ function renderAllPlayersPool() {
       } else if (p.id === currentPid) {
         cardClass += " status-current";
         statusBadge = `<span class="pool-status-badge badge-current">🔴 CURRENTLY BIDDING</span>`;
-      } else if (idx < queueIdx && !txMap[p.id]) {
+      } else if (idx <= queueIdx && !txMap[p.id]) {
         cardClass += " status-unsold";
         statusBadge = `<span class="pool-status-badge badge-unsold">UNSOLD (Review Round)</span>`;
       } else {
@@ -1029,8 +1038,8 @@ function renderAllPlayersPool() {
           <div class="pool-player-left">
             <img src="${window.getPlayerAvatarSrc ? window.getPlayerAvatarSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="pool-player-avatar" alt="${p.name}" onerror="this.src='/assets/players/generic.svg'">
             <div>
-              <div class="pool-player-name">${p.name} ${p.overseas ? '✈️' : '🇮🇳'}</div>
-              <div class="pool-player-meta">${p.role} • ${p.currentTeam && p.currentTeam !== 'POOL' ? `${p.currentTeam} · IPL 2026` : 'Auction pool'} • ${p.battingStyle || ''}</div>
+              <div class="pool-player-name">${p.name} <span class="badge-star-mini">${p.starValue || 3}★</span> ${p.overseas ? '✈️' : '🇮🇳'}</div>
+              <div class="pool-player-meta"><span style="color: #ffd700;">${'⭐'.repeat(p.starValue || 3)}</span> • ${p.role} • ${p.auctionCategory || 'Pool'}</div>
             </div>
           </div>
           <div class="pool-player-right">

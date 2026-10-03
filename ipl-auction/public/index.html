@@ -175,7 +175,6 @@
         <button id="closePlayerSoldBtn" class="btn-success-outline btn-xs">🔨 SOLD</button>
         <button id="closePlayerUnsoldBtn" class="btn-warning-outline btn-xs">❌ UNSOLD</button>
         <button id="skipPlayerBtn" class="btn-warning-outline btn-xs">⏭️ SKIP PLAYER</button>
-        <button id="undoSaleBtn" class="btn-danger-outline btn-xs">↩️ UNDO LAST SALE</button>
         <button id="manualNextBtn" class="btn-secondary-outline btn-xs" title="Emergency only">⏩ MANUAL NEXT</button>
       </div>
 
@@ -252,7 +251,7 @@
               <!-- Set Tag -->
               <div class="podium-top-bar">
                 <span id="playerSetTag" class="set-pill">MARQUEE SET 1</span>
-                  <span id="queueCounterDisplay" class="queue-counter">Player 1 of 300</span>
+                  <span id="queueCounterDisplay" class="queue-counter">Player 1 of 250</span>
               </div>
 
               <div class="player-showcase-row">
@@ -265,6 +264,7 @@
                 <!-- Player Bio Information -->
                 <div class="player-bio-column">
                   <div class="player-capped-row">
+                    <span id="playerStarBadge" class="star-badge">⭐⭐⭐⭐⭐ 5-STAR ICON</span>
                     <span id="playerCappedBadge" class="capped-badge">CAPPED</span>
                     <span id="playerRoleBadge" class="role-badge">WICKETKEEPER BATTER</span>
                   </div>
@@ -401,6 +401,14 @@
               <option value="Wicketkeeper Batter">Wicketkeeper</option>
               <option value="All-rounder">All-rounder</option>
               <option value="Bowler">Bowler</option>
+            </select>
+            <select id="poolStarFilter" class="form-select pool-select">
+              <option value="ALL">All Star Tiers</option>
+              <option value="5">⭐⭐⭐⭐⭐ 5-Star Icons</option>
+              <option value="4">⭐⭐⭐⭐ 4-Star Elite</option>
+              <option value="3">⭐⭐⭐ 3-Star Pro</option>
+              <option value="2">⭐⭐ 2-Star Rising</option>
+              <option value="1">⭐ 1-Star Emerging</option>
             </select>
             <select id="poolStatusFilter" class="form-select pool-select">
               <option value="ALL">All Statuses</option>

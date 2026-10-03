@@ -104,6 +104,29 @@ def get_next_valid_bid(current_bid: float, reserve_price: float) -> float:
     
     return round(current_bid + inc, 2)
 
+# Generate star-based shuffled player queue
+def generate_shuffled_player_queue(players_list: list) -> list:
+    """
+    Groups players by star value (5, 4, 3, 2, 1) in descending order.
+    Within each star tier, shuffles the players randomly.
+    Returns the combined list so Tier 5 superstars appear first (randomly shuffled),
+    followed by Tier 4 (randomly shuffled), Tier 3 (randomly shuffled),
+    Tier 2 (randomly shuffled), and Tier 1 (randomly shuffled).
+    """
+    tiers = {5: [], 4: [], 3: [], 2: [], 1: []}
+    for p in players_list:
+        star = int(p.get("starValue", 3))
+        if star not in tiers:
+            star = 3
+        tiers[star].append(dict(p))
+    
+    shuffled_queue = []
+    for star in (5, 4, 3, 2, 1):
+        group = tiers[star]
+        random.shuffle(group)
+        shuffled_queue.extend(group)
+    return shuffled_queue
+
 class AuctionRoom:
     def __init__(self, code: str, name: str, host_user_id: str, host_name: str, settings: dict):
         self.code = code
@@ -152,8 +175,8 @@ class AuctionRoom:
                 "controllerName": None
             }
         
-        # Auction Queue
-        self.queue = [dict(p) for p in SEEDED_PLAYERS]
+        # Auction Queue: Dynamic star-based shuffle
+        self.queue = generate_shuffled_player_queue(SEEDED_PLAYERS)
         self.queue_index = -1
         self.current_player = None
         self.current_bid = 0.0
@@ -202,6 +225,8 @@ class AuctionRoom:
             "timerRemaining": self.timer_remaining,
             "queueIndex": self.queue_index,
             "totalInQueue": len(self.queue),
+            "queueOrder": [p["id"] for p in self.queue],
+            "upcomingQueue": self.queue[self.queue_index + 1 : self.queue_index + 6],
             "unsoldCount": len(self.unsold_list),
             "transactions": self.transactions[-15:],
             "lastTransaction": self.last_transaction,
@@ -267,7 +292,9 @@ class AuctionRoom:
         if self.status != "WAITING":
             return False, "Auction already started."
         
-        logger.info(f"Room {self.code}: Auction started by host.")
+        logger.info(f"Room {self.code}: Auction started by host. Generating fresh star-based player shuffle.")
+        # Ensure fresh new shuffle occurs for the game based on player star value
+        self.queue = generate_shuffled_player_queue(SEEDED_PLAYERS)
         self.queue_index = -1
         await self.load_next_player()
         return True, "Auction started"
@@ -590,55 +617,7 @@ class AuctionRoom:
         return True, "Player skipped"
 
     async def undo_last_sale(self, user_id: str):
-        if user_id != self.host_user_id:
-            return False, "Host only action."
-        if not self.last_transaction:
-            return False, "No recent sale to undo."
-
-        tx = self.last_transaction
-        team = self.teams.get(tx["teamId"])
-        if not team:
-            return False, "Winning team not found."
-
-        # Find player in team squad
-        player_idx = next((i for i, p in enumerate(team["squad"]) if p["id"] == tx["playerId"]), None)
-        if player_idx is None:
-            return False, "Player not in team squad."
-
-        removed_player = team["squad"].pop(player_idx)
-        team["squadSize"] = len(team["squad"])
-        if removed_player.get("overseas"):
-            team["overseasCount"] = max(0, team["overseasCount"] - 1)
-        
-        # Refund purse
-        team["purse"] = round(team["purse"] + tx["finalBid"], 2)
-        
-        # Remove from transactions
-        self.transactions = [t for t in self.transactions if t["id"] != tx["id"]]
-        self.last_transaction = self.transactions[-1] if self.transactions else None
-
-        # Insert player back into the queue right after current index
-        insert_pos = max(0, self.queue_index)
-        self.queue.insert(insert_pos, removed_player)
-
-        # Delete from DB
-        try:
-            conn = sqlite3.connect(DB_PATH)
-            cur = conn.cursor()
-            cur.execute("DELETE FROM transactions WHERE id = ?", (tx["id"],))
-            conn.commit()
-            conn.close()
-        except Exception as e:
-            logger.error(f"Error undoing db transaction: {e}")
-
-        logger.info(f"Room {self.code}: UNDO sale of {tx['playerName']} to {team['name']}.")
-        await self.broadcast("SALE_UNDONE", {
-            "transaction": tx,
-            "team": team,
-            "player": removed_player
-        })
-        await self.broadcast_state()
-        return True, "Sale successfully undone and purse restored"
+        return False, "Undo option has been removed."
 
     async def start_unsold_round(self, user_id: str):
         if user_id != self.host_user_id:
@@ -646,8 +625,8 @@ class AuctionRoom:
         if not self.unsold_list:
             return False, "No unsold players available."
         
-        logger.info(f"Room {self.code}: Starting UNSOLD ROUND with {len(self.unsold_list)} players.")
-        self.queue = [dict(p) for p in self.unsold_list]
+        logger.info(f"Room {self.code}: Starting UNSOLD ROUND with {len(self.unsold_list)} players (shuffled by star value).")
+        self.queue = generate_shuffled_player_queue(self.unsold_list)
         self.unsold_list = []
         self.queue_index = -1
         self.in_unsold_round = True
@@ -942,11 +921,7 @@ async def handle_websocket(websocket):
                     await websocket.send(json.dumps({"type": "ACTION_ERROR", "data": {"message": msg_text}}))
 
             elif msg_type == "UNDO_LAST_SALE":
-                if not current_room or not user_id:
-                    continue
-                ok, msg_text = await current_room.undo_last_sale(user_id)
-                if not ok:
-                    await websocket.send(json.dumps({"type": "ACTION_ERROR", "data": {"message": msg_text}}))
+                await websocket.send(json.dumps({"type": "ACTION_ERROR", "data": {"message": "Undo option has been removed."}}))
 
             elif msg_type in ("CLOSE_PLAYER_SOLD", "CLOSE_PLAYER_UNSOLD"):
                 if not current_room or not user_id:
