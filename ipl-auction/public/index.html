@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
   <title>IPL AUCTION — Real-Time Multiplayer Auction Arena</title>
   <meta name="description" content="Production-quality real-time multiplayer IPL auction game with real franchises, real players, and authoritative server bidding.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css?v=2026.4">
 </head>
 <body class="theme-dark">
 
@@ -257,7 +258,7 @@
               <div class="player-showcase-row">
                 <!-- Player Portrait with local SVG fallback -->
                 <div class="player-image-wrapper">
-                  <img id="playerPortrait" src="/assets/players/generic.svg" alt="Player profile" class="player-portrait-img" onerror="this.src='/assets/players/generic.svg'">
+                  <img id="playerPortrait" src="/assets/players/generic.svg" alt="Player profile" class="player-portrait-img" referrerpolicy="no-referrer" loading="eager" onerror="this.src='/assets/players/generic.svg'">
                   <div id="playerCountryFlag" class="country-badge">🇮🇳 INDIA</div>
                 </div>
 
@@ -563,11 +564,11 @@
     </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="/js/assets-data.js"></script>
-  <script src="/js/audio.js"></script>
-  <script src="/js/socket.js"></script>
-  <script src="/js/xi-builder.js"></script>
-  <script src="/js/app.js"></script>
+  <!-- Scripts with cache busters -->
+  <script src="/js/assets-data.js?v=2026.4"></script>
+  <script src="/js/audio.js?v=2026.4"></script>
+  <script src="/js/socket.js?v=2026.4"></script>
+  <script src="/js/xi-builder.js?v=2026.4"></script>
+  <script src="/js/app.js?v=2026.4"></script>
 </body>
 </html>

@@ -982,6 +982,7 @@ async def process_http(conn, request):
         headers = Headers([
             ("Content-Type", "application/json"),
             ("Content-Length", str(len(body))),
+            ("Cache-Control", "no-cache, no-store, must-revalidate"),
             ("Access-Control-Allow-Origin", "*"),
         ])
         return Response(200, "OK", headers, body)
@@ -991,6 +992,7 @@ async def process_http(conn, request):
         headers = Headers([
             ("Content-Type", "application/json"),
             ("Content-Length", str(len(body))),
+            ("Cache-Control", "no-cache, no-store, must-revalidate"),
             ("Access-Control-Allow-Origin", "*"),
         ])
         return Response(200, "OK", headers, body)
@@ -1015,10 +1017,11 @@ async def process_http(conn, request):
     try:
         with open(safe_path, "rb") as f:
             content = f.read()
+        cache_policy = "no-cache, no-store, must-revalidate" if safe_path.endswith("index.html") else "public, max-age=60"
         headers = Headers([
             ("Content-Type", mime_type),
             ("Content-Length", str(len(content))),
-            ("Cache-Control", "public, max-age=86400"),
+            ("Cache-Control", cache_policy),
             ("Access-Control-Allow-Origin", "*"),
         ])
         return Response(200, "OK", headers, content)

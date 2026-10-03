@@ -19,6 +19,38 @@ const state = {
 // Save user id
 localStorage.setItem("ipl_auction_user", state.userId);
 
+// Global High-Res Photo Engine
+window.getPlayerPhotoSrc = function(p) {
+  if (!p) return "/assets/players/generic.svg";
+  let playerObj = typeof p === "object" ? p : null;
+  if (!playerObj && state.allPlayers && state.allPlayers.length > 0) {
+    playerObj = state.allPlayers.find(x => x.id === p);
+  }
+  
+  if (playerObj) {
+    if (playerObj.imageUrl && playerObj.imageUrl.startsWith("http")) return playerObj.imageUrl;
+    if (playerObj.photoUrl && playerObj.photoUrl.startsWith("http")) return playerObj.photoUrl;
+    if (playerObj.headshotId) return `https://documents.iplt20.com/ipl/IPLHeadshot2025/${playerObj.headshotId}.png`;
+  }
+  
+  const pId = typeof p === "object" ? (p.id || "generic") : p;
+  return (window.ASSET_PLAYER_AVATARS && window.ASSET_PLAYER_AVATARS[pId]) || `/assets/players/${pId}.svg`;
+};
+
+window.handlePlayerImgError = function(imgEl, headshotId, pId) {
+  if (!imgEl) return;
+  const src = imgEl.src || "";
+  if (src.includes("IPLHeadshot2025") && headshotId) {
+    imgEl.src = `https://documents.iplt20.com/ipl/IPLHeadshot2024/${headshotId}.png`;
+  } else if (src.includes("IPLHeadshot2024") && headshotId) {
+    imgEl.src = `https://documents.iplt20.com/ipl/IPLHeadshot2023/${headshotId}.png`;
+  } else {
+    const fallback = (window.ASSET_PLAYER_AVATARS && pId && window.ASSET_PLAYER_AVATARS[pId]) || `/assets/players/${pId || "generic"}.svg`;
+    imgEl.onerror = () => { imgEl.src = "/assets/players/generic.svg"; };
+    imgEl.src = fallback;
+  }
+};
+
 // DOM Elements
 const views = {
   lobby: document.getElementById("lobbyView"),
@@ -842,7 +874,7 @@ function renderQueuePeek(roomState) {
     .map(
       (p) => `
         <div class="queue-item">
-          <img src="${window.getPlayerPhotoSrc ? window.getPlayerPhotoSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="queue-item-thumb" alt="${p.name}" onerror="if (window.handlePlayerImgError) window.handlePlayerImgError(this, '${p.headshotId || ''}', '${p.id || ''}'); else this.src='/assets/players/generic.svg';">
+          <img src="${window.getPlayerPhotoSrc ? window.getPlayerPhotoSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="queue-item-thumb" alt="${p.name}" referrerpolicy="no-referrer" loading="lazy" onerror="if (window.handlePlayerImgError) window.handlePlayerImgError(this, '${p.headshotId || ''}', '${p.id || ''}'); else this.src='/assets/players/generic.svg';">
           <div class="queue-item-info">
             <span class="queue-item-name">${p.name}</span>
             <span class="queue-item-star">${'⭐'.repeat(p.starValue || 3)}</span>
@@ -1042,7 +1074,7 @@ function renderAllPlayersPool() {
       return `
         <div class="${cardClass}">
           <div class="pool-player-left">
-            <img src="${window.getPlayerPhotoSrc ? window.getPlayerPhotoSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="pool-player-avatar" alt="${p.name}" onerror="if (window.handlePlayerImgError) window.handlePlayerImgError(this, '${p.headshotId || ''}', '${p.id || ''}'); else this.src='/assets/players/generic.svg';">
+            <img src="${window.getPlayerPhotoSrc ? window.getPlayerPhotoSrc(p) : (p.imageUrl || '/assets/players/generic.svg')}" class="pool-player-avatar" alt="${p.name}" referrerpolicy="no-referrer" loading="lazy" onerror="if (window.handlePlayerImgError) window.handlePlayerImgError(this, '${p.headshotId || ''}', '${p.id || ''}'); else this.src='/assets/players/generic.svg';">
             <div>
               <div class="pool-player-name">${p.name} <span class="badge-star-mini">${p.starValue || 3}★</span> ${p.overseas ? '✈️' : '🇮🇳'}</div>
               <div class="pool-player-meta"><span style="color: #ffd700;">${'⭐'.repeat(p.starValue || 3)}</span> • ${p.role} • ${p.auctionCategory || 'Pool'}</div>
