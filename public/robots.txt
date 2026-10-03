@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ipl-auction.onrender.com/sitemap.xml
+Sitemap: https://ipl-auction-t20j.onrender.com/sitemap.xml
