@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <meta name="google-site-verification" content="IyIURrAsPi9a0QjGp-I5FTYwu-vRIdVerSQ4qBnOGbk" />
+  <title>IPL AUCTION 2026 — Real-Time Multiplayer Mega Auction Arena</title>
+  <meta name="description" content="Play the official real-time multiplayer IPL Mega Auction game with friends. 10 authentic franchises, real player photos, star-ranked bidding engine, and Playing XI builder.">
+  <meta name="keywords" content="IPL Auction, IPL Mega Auction 2026, IPL Game, IPL Bidding, Fantasy IPL, Cricket Auction Game, IPL Real Time Auction">
+  <link rel="canonical" href="https://ipl-auction.onrender.com/">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ipl-auction.onrender.com/">
+  <meta property="og:title" content="IPL AUCTION 2026 — Real-Time Multiplayer Mega Auction Arena">
+  <meta property="og:description" content="Host and join live multiplayer IPL Mega Auctions with friends. Live server-synchronized bidding, official franchises, and real player photos.">
+  <meta property="og:image" content="https://ipl-auction.onrender.com/assets/logos/MI.svg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://ipl-auction.onrender.com/">
+  <meta name="twitter:title" content="IPL AUCTION 2026 — Real-Time Multiplayer Arena">
+  <meta name="twitter:description" content="Host and join live multiplayer IPL Mega Auctions with friends. Live bidding, official franchises, and real player photos.">
+
+  <!-- Google Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "IPL AUCTION 2026",
+    "alternateName": "IPL Mega Auction Web App",
+    "url": "https://ipl-auction.onrender.com/",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "All",
+    "description": "Authentic real-time multiplayer IPL Mega Auction game with 10 official franchises, real star-ranked player pool, and synchronized live bidding.",
+    "genre": ["Sports", "Strategy", "Cricket", "Auction"]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css?v=2026.4">
+</head>
+<body class="theme-dark">
+
+  <!-- Header & Top Navigation -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="brand-badge" id="brandLogoBtn">
+        <span class="cricket-ball-icon">🏏</span>
+        <div class="brand-text">
+          <span class="brand-title">IPL AUCTION</span>
+          <span class="brand-subtitle">MEGA AUCTION 2026</span>
+        </div>
+      </div>
+      <div id="roomBadgeContainer" class="room-badge hidden">
+        <span class="badge-label">ROOM</span>
+        <span id="roomCodeDisplay" class="badge-code">------</span>
+        <button id="copyRoomBtn" class="btn-icon-xs" title="Copy Room Code">📋</button>
+        <button id="exitRoomBtn" class="btn-exit-room" type="button" title="Leave this auction room">EXIT</button>
+      </div>
+    </div>
+
+    <!-- Center Navigation Tabs (Visible in Arena for All Users) -->
+    <div id="arenaNavTabs" class="arena-nav-tabs hidden">
+      <button class="arena-nav-btn active" data-target="arenaMainTab">🔨 Live Bidding</button>
+      <button class="arena-nav-btn" data-target="arenaPlayersTab">📋 All Players Pool (<span id="allPlayersTotalCount">60</span>)</button>
+      <button class="arena-nav-btn" data-target="arenaTeamsTab">🏆 Franchises & Purses</button>
+    </div>
+
+    <div class="header-right">
+      <div id="myFranchiseMini" class="my-franchise-mini hidden">
+        <img id="myMiniLogo" src="/assets/logos/MI.svg" alt="Team Logo" class="mini-logo" onerror="this.src='/assets/logos/MI.svg'">
+        <div class="mini-info">
+          <span id="myMiniName" class="mini-name">TEAM</span>
+          <span id="myMiniPurse" class="mini-purse">₹120.00 Cr</span>
+        </div>
+      </div>
+
+      <button id="searchPlayersBtn" class="btn-secondary btn-sm" title="Search Players Database">📋 All Players</button>
+      <button id="audioToggleBtn" class="btn-icon" title="Toggle Sound">🔊</button>
+      <div class="status-indicator" id="connectionStatus" title="Server Connection Status">
+        <span class="status-dot"></span>
+        <span class="status-text" id="connectionText">Online</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Notification Banner -->
+  <div id="notificationBanner" class="notification-banner hidden">
+    <span id="notificationMessage">Notification</span>
+  </div>
+
+  <!-- Main Container -->
+  <main class="app-main">
+
+    <!-- VIEW 1: LOBBY (Create / Join) -->
+    <section id="lobbyView" class="view-section active">
+      <div class="lobby-hero">
+        <div class="hero-tag">AUTHENTIC REAL-TIME MULTIPLAYER ARENA</div>
+        <h1 class="hero-title">EXPERIENCE THE THRILL OF THE <span class="highlight-gold">IPL AUCTION</span></h1>
+        <p class="hero-desc">10 Official Franchises • Real BCCI Player Pool • ₹120 Cr Starting Purse • 100% Reset • Authoritative Real-Time Bidding</p>
+
+        <div class="lobby-cards-grid">
+          <!-- Create Auction Card -->
+          <div class="glass-card lobby-card">
+            <div class="card-header-icon">👑</div>
+            <h2>Create New Auction</h2>
+            <p>Start a new auction room as the Auctioneer host and invite up to 10 friends to manage franchises.</p>
+            <form id="createRoomForm" class="lobby-form">
+              <div class="form-group">
+                <label for="hostNameInput">Your Name (Host / Auctioneer)</label>
+                <input type="text" id="hostNameInput" placeholder="e.g. Rithvik" required maxlength="25">
+              </div>
+              <div class="form-group">
+                <label for="auctionNameInput">Auction Event Name</label>
+                <input type="text" id="auctionNameInput" value="IPL 2026 Grand Mega Auction" required maxlength="40">
+              </div>
+
+              <!-- Collapsible Settings -->
+              <details class="settings-collapsible">
+                <summary>Auction Configuration (Default Rules)</summary>
+                <div class="settings-grid">
+                  <div class="setting-item">
+                    <label>Starting Purse:</label>
+                    <span class="setting-val">₹120.00 Crore</span>
+                  </div>
+                  <div class="setting-item">
+                    <label>Transition Delay:</label>
+                    <span class="setting-val">2.5 Seconds</span>
+                  </div>
+                  <div class="setting-item">
+                    <label>Squad Limits:</label>
+                    <span class="setting-val">18–25 Players (Max 8 Overseas)</span>
+                  </div>
+                </div>
+              </details>
+
+              <button type="submit" class="btn-primary btn-block btn-lg" id="btnCreateRoom">
+                <span>CREATE AUCTION ROOM</span>
+                <span class="btn-arrow">→</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Join Auction Card -->
+          <div class="glass-card lobby-card">
+            <div class="card-header-icon">🎟️</div>
+            <h2>Join Auction Room</h2>
+            <p>Enter your friend's room code to take command of your favorite IPL franchise.</p>
+            <form id="joinRoomForm" class="lobby-form">
+              <div class="form-group">
+                <label for="joinRoomCodeInput">Room Code</label>
+                <input type="text" id="joinRoomCodeInput" placeholder="e.g. IPL26X7" required maxlength="10" style="text-transform: uppercase; font-family: 'Space Grotesk', monospace; letter-spacing: 2px;">
+              </div>
+              <div class="form-group">
+                <label for="participantNameInput">Your Name</label>
+                <input type="text" id="participantNameInput" placeholder="e.g. Alex" required maxlength="25">
+              </div>
+              <button type="submit" class="btn-primary btn-block btn-lg" id="btnJoinRoom">
+                <span>ENTER AUCTION ROOM</span>
+                <span class="btn-arrow">→</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: FRANCHISE SELECTION & WAITING ROOM -->
+    <section id="teamSelectView" class="view-section">
+      <div class="section-top-bar">
+        <div>
+          <span class="section-tag">THE BOARDROOM</span>
+          <h2 class="section-heading">SELECT YOUR IPL FRANCHISE</h2>
+          <p class="section-subtext">Each franchise starts with ₹120.00 Cr purse and 0 retained players. Real-time franchise lock.</p>
+        </div>
+        <div class="host-start-container">
+          <div id="hostNotice" class="host-pill hidden">👑 You are the Auctioneer (Host)</div>
+          <button id="startAuctionBtn" class="btn-gold btn-lg hidden">START AUCTION NOW 🔨</button>
+        </div>
+      </div>
+
+      <!-- Franchises Grid -->
+      <div id="teamsGrid" class="teams-grid">
+        <!-- Dynamically injected franchise cards -->
+      </div>
+
+      <!-- Participants list -->
+      <div class="participants-drawer glass-card">
+        <h3>Connected Participants (<span id="participantCount">1</span>/10)</h3>
+        <div id="participantsList" class="participants-list">
+          <!-- Injected participant pills -->
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: LIVE AUCTION ARENA -->
+    <section id="auctionArenaView" class="view-section">
+
+      <!-- Host Emergency Controls Bar (Visible to Host) -->
+      <div id="hostEmergencyBar" class="host-emergency-bar hidden">
+        <span class="emergency-label">HOST CONTROLS:</span>
+        <button id="pauseAuctionBtn" class="btn-danger-outline btn-xs">⏸️ PAUSE</button>
+        <button id="resumeAuctionBtn" class="btn-success-outline btn-xs hidden">▶️ RESUME</button>
+        <button id="closePlayerSoldBtn" class="btn-success-outline btn-xs">🔨 SOLD</button>
+        <button id="closePlayerUnsoldBtn" class="btn-warning-outline btn-xs">❌ UNSOLD</button>
+        <button id="skipPlayerBtn" class="btn-warning-outline btn-xs">⏭️ SKIP PLAYER</button>
+        <button id="manualNextBtn" class="btn-secondary-outline btn-xs" title="Emergency only">⏩ MANUAL NEXT</button>
+      </div>
+
+      <!-- SUB-TAB 1: ARENA MAIN BIDDING (Default) -->
+      <div id="arenaMainTab" class="arena-tab-content active">
+        <!-- Arena Layout: 3 Columns on Desktop, Stacked on Mobile -->
+        <div class="arena-grid">
+
+          <!-- LEFT COLUMN: MY FRANCHISE DASHBOARD -->
+          <aside class="arena-col arena-left">
+            <div class="glass-card franchise-dashboard-card" id="myFranchiseCard">
+              <div class="dashboard-header">
+                <img id="myDashboardLogo" src="/assets/logos/MI.svg" alt="Franchise Logo" class="team-shield-large" onerror="this.src='/assets/logos/MI.svg'">
+                <div>
+                  <h3 id="myDashboardName" class="dashboard-team-name">SELECT A TEAM</h3>
+                  <span id="myDashboardCity" class="dashboard-sub">Home Stadium</span>
+                </div>
+              </div>
+
+              <div class="dashboard-stats-grid">
+                <div class="stat-box">
+                  <span class="stat-lbl">REMAINING PURSE</span>
+                  <span id="myDashboardPurse" class="stat-val stat-purse">₹120.00 Cr</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-lbl">SQUAD SIZE</span>
+                  <span id="myDashboardSquadCount" class="stat-val">0 / 25</span>
+                </div>
+                <div class="stat-box">
+                  <span class="stat-lbl">OVERSEAS</span>
+                  <span id="myDashboardOverseasCount" class="stat-val">0 / 8</span>
+                </div>
+              </div>
+
+              <!-- Squad breakdown tabs -->
+              <div class="my-squad-container">
+                <div class="squad-header-row">
+                  <h4>PURCHASED SQUAD</h4>
+                  <button id="toggleFullSquadModalBtn" class="btn-link">View Full Squad</button>
+                </div>
+                <div id="mySquadMiniList" class="squad-mini-list">
+                  <div class="empty-state-text">No players purchased yet. Place bids to build your dream team!</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Queue Peek Drawer -->
+            <div class="glass-card queue-peek-card">
+              <div class="queue-header">
+                <h4>UPCOMING IN QUEUE</h4>
+                <button class="btn-link" onclick="switchArenaSubTab('arenaPlayersTab')">View All (60) →</button>
+              </div>
+              <div id="queueListPreview" class="queue-preview-list">
+                <!-- Dynamically populated upcoming players -->
+              </div>
+            </div>
+          </aside>
+
+          <!-- CENTER COLUMN: LIVE PLAYER AUCTION PODIUM -->
+          <section class="arena-col arena-center">
+
+            <!-- Pause Banner -->
+            <div id="pausedOverlay" class="paused-banner hidden">
+              <div class="paused-content">
+                <span class="paused-icon">⏸️</span>
+                <h2>AUCTION PAUSED BY AUCTIONEER</h2>
+                <p>Bidding is temporarily frozen. Waiting for the host to resume...</p>
+              </div>
+            </div>
+
+            <!-- Cinematic Player Card -->
+            <div class="glass-card player-podium-card" id="playerPodium">
+
+              <!-- Set Tag -->
+              <div class="podium-top-bar">
+                <span id="playerSetTag" class="set-pill">MARQUEE SET 1</span>
+                  <span id="queueCounterDisplay" class="queue-counter">Player 1 of 250</span>
+              </div>
+
+              <div class="player-showcase-row">
+                <!-- Player Portrait with local SVG fallback -->
+                <div class="player-image-wrapper">
+                  <img id="playerPortrait" src="/assets/players/generic.svg" alt="Player profile" class="player-portrait-img" referrerpolicy="no-referrer" loading="eager" onerror="this.src='/assets/players/generic.svg'">
+                  <div id="playerCountryFlag" class="country-badge">🇮🇳 INDIA</div>
+                </div>
+
+                <!-- Player Bio Information -->
+                <div class="player-bio-column">
+                  <div class="player-capped-row">
+                    <span id="playerStarBadge" class="star-badge">⭐⭐⭐⭐⭐ 5-STAR ICON</span>
+                    <span id="playerCappedBadge" class="capped-badge">CAPPED</span>
+                    <span id="playerRoleBadge" class="role-badge">WICKETKEEPER BATTER</span>
+                  </div>
+                  <h2 id="playerNameDisplay" class="player-full-name">Rishabh Pant</h2>
+                  <div id="playerCurrentTeam" class="player-current-team">2026 IPL SQUAD</div>
+                  <div class="player-styles-row">
+                    <span id="battingStyleDisplay" class="style-item">🏏 Left-hand bat</span>
+                    <span id="bowlingStyleDisplay" class="style-item">🎯 Right-arm offbreak</span>
+                  </div>
+
+                  <div class="player-base-price-box">
+                    <span class="base-lbl">BASE RESERVE PRICE</span>
+                    <span id="basePriceDisplay" class="base-val">₹2.00 Cr</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bidding Status Display -->
+              <div class="live-bidding-stage">
+                <!-- Current Highest Bid & Winning Team Display -->
+                <div class="current-bid-display">
+                  <span class="bid-headline">CURRENT HIGHEST BID</span>
+                  <div class="bid-amount-row">
+                    <span id="currentBidDisplay" class="current-bid-val">₹2.00 Cr</span>
+                  </div>
+                  <div id="highestBidderBox" class="highest-bidder-box">
+                    <span class="leader-lbl">LEADER:</span>
+                    <img id="highestBidderLogo" src="" alt="" class="leader-logo hidden">
+                    <span id="highestBidderName" class="leader-name">NO BIDS YET</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive Bid Action Controls -->
+              <div class="bidding-controls-section">
+                <!-- Mobile Purse Indicator Bar -->
+                <div class="mobile-purse-bar">
+                  <span>MY PURSE: <strong id="mobilePurseText" style="color: var(--accent-green);">₹120.00 Cr</strong></span>
+                  <span>SQUAD: <strong id="mobileSquadText">0 / 25</strong></span>
+                </div>
+
+                <div class="bid-action-row">
+                  <button id="placeBidBtn" class="btn-bid-primary" disabled>
+                    <span class="bid-btn-caption">PLACE BID 🔨</span>
+                    <span id="nextBidAmountText" class="bid-btn-amount">₹2.00 Cr</span>
+                  </button>
+                </div>
+                <button id="passPlayerBtn" class="btn-pass-player" title="Pass for your franchise; other franchises can keep bidding." disabled>NOT INTERESTED · PASS</button>
+                <div id="playerInterestStatus" class="player-interest-status" aria-live="polite"></div>
+                <div id="bidErrorMessage" class="bid-error-hint hidden">Insufficient purse for this bid</div>
+              </div>
+
+            </div>
+
+            <!-- SOLD / UNSOLD Cinematic Celebration Overlay -->
+            <div id="soldCelebrationOverlay" class="celebration-overlay hidden">
+              <div class="celebration-card glass-card">
+                <div id="celebrationIcon" class="gavel-icon">🔨</div>
+                <h2 id="celebrationTitle" class="celebration-title">SOLD!</h2>
+                <div id="celebrationPlayerName" class="celebration-player">RISHABH PANT</div>
+                <div id="celebrationAmount" class="celebration-price">₹27.00 Cr</div>
+                <div class="celebration-team-row">
+                  <img id="celebrationTeamLogo" src="" alt="" class="celebration-team-logo">
+                  <span id="celebrationTeamName" class="celebration-team-name">PUNJAB KINGS</span>
+                </div>
+                <div class="celebration-footer">
+                  <span class="next-countdown-text">Next player loading in <span id="nextPlayerCountdown">2.5</span>s...</span>
+                </div>
+              </div>
+            </div>
+
+            <div id="unsoldCelebrationOverlay" class="celebration-overlay hidden">
+              <div class="celebration-card glass-card unsold-theme">
+                <div class="unsold-icon">❌</div>
+                <h2 class="celebration-title">UNSOLD</h2>
+                <div id="unsoldPlayerName" class="celebration-player">PLAYER NAME</div>
+                <div id="unsoldBasePrice" class="celebration-price">Base: ₹2.00 Cr</div>
+                <p class="unsold-note">Player moves to Unsold Round pool.</p>
+                <div class="celebration-footer">
+                  <span class="next-countdown-text">Next player loading in <span id="unsoldNextCountdown">2.5</span>s...</span>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <!-- RIGHT COLUMN: ALL 10 FRANCHISES & LIVE BID TICKER -->
+          <aside class="arena-col arena-right">
+
+            <!-- All Franchises Purse Table -->
+            <div class="glass-card all-franchises-card">
+              <div class="card-head-row">
+                <h4>ALL 10 FRANCHISES</h4>
+                <span class="table-sub">Live Purses</span>
+              </div>
+              <div id="allFranchisesList" class="all-franchises-list">
+                <!-- Dynamically populated 10 franchise mini bars -->
+              </div>
+            </div>
+
+            <!-- Live Bid History Feed -->
+            <div class="glass-card bid-history-card">
+              <div class="card-head-row">
+                <h4>LIVE BID STREAM</h4>
+                <span class="pulse-indicator">● LIVE</span>
+              </div>
+              <div id="bidHistoryStream" class="bid-stream-list">
+                <div class="empty-state-text">Waiting for first bid...</div>
+              </div>
+            </div>
+
+          </aside>
+
+        </div>
+      </div>
+
+      <!-- SUB-TAB 2: FULL ALL PLAYERS POOL (Visible to ALL participants!) -->
+      <div id="arenaPlayersTab" class="arena-tab-content">
+        <div class="glass-card full-pool-card">
+          <div class="pool-header">
+            <div>
+              <h3>📋 OFFICIAL IPL PLAYER AUCTION POOL (<span id="poolTotalCount">60</span>)</h3>
+              <p class="pool-sub">Live real-time auction status for all players. Every participant sees up-to-the-second updates.</p>
+            </div>
+            <button class="btn-secondary btn-sm" onclick="switchArenaSubTab('arenaMainTab')">← Back to Bidding</button>
+          </div>
+
+          <!-- Filter & Search Controls -->
+          <div class="pool-filter-bar">
+            <input type="text" id="poolSearchInput" placeholder="🔍 Search player name or country..." class="form-input pool-search">
+            <select id="poolRoleFilter" class="form-select pool-select">
+              <option value="ALL">All Roles</option>
+              <option value="Batter">Batter</option>
+              <option value="Wicketkeeper Batter">Wicketkeeper</option>
+              <option value="All-rounder">All-rounder</option>
+              <option value="Bowler">Bowler</option>
+            </select>
+            <select id="poolStarFilter" class="form-select pool-select">
+              <option value="ALL">All Star Tiers</option>
+              <option value="5">⭐⭐⭐⭐⭐ 5-Star Icons</option>
+              <option value="4">⭐⭐⭐⭐ 4-Star Elite</option>
+              <option value="3">⭐⭐⭐ 3-Star Pro</option>
+              <option value="2">⭐⭐ 2-Star Rising</option>
+              <option value="1">⭐ 1-Star Emerging</option>
+            </select>
+            <select id="poolStatusFilter" class="form-select pool-select">
+              <option value="ALL">All Statuses</option>
+              <option value="CURRENT">Currently Bidding 🔴</option>
+              <option value="SOLD">Sold 🔨</option>
+              <option value="UNSOLD">Unsold ❌</option>
+              <option value="UPCOMING">Upcoming ⏳</option>
+            </select>
+          </div>
+
+          <!-- Player Pool Roster Grid -->
+          <div id="poolGridContainer" class="pool-grid-container">
+            <!-- Injected player cards with live auction status -->
+          </div>
+        </div>
+      </div>
+
+      <!-- SUB-TAB 3: ALL TEAMS & PURSES -->
+      <div id="arenaTeamsTab" class="arena-tab-content">
+        <div class="glass-card full-pool-card">
+          <div class="pool-header">
+            <div>
+              <h3>🏆 ALL 10 FRANCHISES LEADERBOARD</h3>
+              <p class="pool-sub">Track remaining purse, squad count, and overseas limits for every franchise.</p>
+            </div>
+            <button class="btn-secondary btn-sm" onclick="switchArenaSubTab('arenaMainTab')">← Back to Bidding</button>
+          </div>
+          <div id="fullTeamsGridContainer" class="teams-leaderboard-grid">
+            <!-- Dynamically populated teams cards -->
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- VIEW 4: AUCTION COMPLETE, STATS & PLAYING XI BUILDER -->
+    <section id="auctionCompleteView" class="view-section">
+      <div class="complete-header">
+        <div class="trophy-badge">🏆</div>
+        <h2 class="hero-title">MEGA AUCTION COMPLETE</h2>
+        <p class="hero-desc">All players in the main auction pool have been processed. Review official statistics and build your official Playing XI!</p>
+        <div id="unsoldRoundHostAction" class="unsold-cta hidden">
+          <button id="btnStartUnsoldRound" class="btn-gold btn-lg">START UNSOLD ROUND 🔄 (<span id="unsoldPoolCount">0</span> Players)</button>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="tabs-nav">
+        <button class="tab-btn active" data-tab="tabStats">Auction Statistics</button>
+        <button class="tab-btn" data-tab="tabSquads">All Franchise Squads</button>
+        <button class="tab-btn" data-tab="tabXI">Playing XI Builder</button>
+      </div>
+
+      <!-- TAB 1: AUCTION STATISTICS -->
+      <div id="tabStats" class="tab-pane active">
+        <div class="stats-cards-grid" id="statsGrid">
+          <!-- Dynamically populated factual stats -->
+        </div>
+      </div>
+
+      <!-- TAB 2: ALL FRANCHISE SQUADS -->
+      <div id="tabSquads" class="tab-pane">
+        <div id="allSquadsContainer" class="all-squads-grid">
+          <!-- Injected franchise squad breakdowns -->
+        </div>
+      </div>
+
+      <!-- TAB 3: PLAYING XI BUILDER -->
+      <div id="tabXI" class="tab-pane">
+        <div class="xi-builder-container glass-card">
+          <div class="xi-header-row">
+            <div>
+              <h3>BUILD YOUR PLAYING XI + IMPACT PLAYER</h3>
+              <p>Select exactly 11 players for your starting XI and 1 Impact Player. Maximum 4 overseas players in the 11.</p>
+            </div>
+            <button id="savePlayingXIBtn" class="btn-primary">SAVE PLAYING XI ✓</button>
+          </div>
+
+          <div class="xi-builder-layout">
+            <!-- Left: Available squad to pick from -->
+            <div class="xi-available-col">
+              <h4>MY FRANCHISE SQUAD (<span id="xiSquadCount">0</span>)</h4>
+              <div id="xiAvailableList" class="xi-player-picker-list">
+                <!-- Available players -->
+              </div>
+            </div>
+
+            <!-- Right: Pitch visualization & Selected 11 -->
+            <div class="xi-selected-col">
+              <div class="xi-summary-bar">
+                <span id="xiTotalCountBadge" class="badge-pill">Players: 0 / 11</span>
+                <span id="xiOverseasCountBadge" class="badge-pill">Overseas: 0 / 4 Max</span>
+                <span id="xiImpactBadge" class="badge-pill">Impact Player: None</span>
+              </div>
+
+              <div class="cricket-pitch-canvas">
+                <div class="pitch-grass">
+                  <div class="pitch-strip"></div>
+                  <div id="pitchSlotsGrid" class="pitch-slots-grid">
+                    <!-- 11 slots -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Impact player slot -->
+              <div class="impact-player-box">
+                <h4>IMPACT PLAYER NOMINEE</h4>
+                <div id="impactPlayerSlot" class="impact-slot-drop">
+                  <span>No Impact Player Selected</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Mobile Bottom Navigation Bar (Visible in Live Arena on Mobile) -->
+  <nav id="mobileBottomNav" class="mobile-bottom-nav hidden">
+    <button class="mobile-nav-item active" data-tab="arenaMainTab">
+      <span class="nav-icon">🔨</span>
+      <span class="nav-label">Live Bid</span>
+    </button>
+    <button class="mobile-nav-item" data-tab="arenaPlayersTab">
+      <span class="nav-icon">📋</span>
+      <span class="nav-label">All Players</span>
+    </button>
+    <button class="mobile-nav-item" data-tab="arenaTeamsTab">
+      <span class="nav-icon">🏆</span>
+      <span class="nav-label">Teams</span>
+    </button>
+    <button class="mobile-nav-item" id="mobileSquadNavBtn">
+      <span class="nav-icon">🛡️</span>
+      <span class="nav-label">My Squad</span>
+    </button>
+  </nav>
+
+  <!-- MODALS -->
+
+  <!-- Full Squad Inspection Modal -->
+  <div id="fullSquadModal" class="modal-backdrop hidden">
+    <div class="modal-card glass-card modal-lg">
+      <div class="modal-header">
+        <h3 id="fullSquadModalTitle">FRANCHISE SQUAD</h3>
+        <button id="closeFullSquadModalBtn" class="btn-close">&times;</button>
+      </div>
+      <div id="fullSquadModalContent" class="full-squad-categorized">
+        <!-- Categorized: Keepers, Batters, All-Rounders, Bowlers -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts with cache busters -->
+  <script src="/js/assets-data.js?v=2026.4"></script>
+  <script src="/js/audio.js?v=2026.4"></script>
+  <script src="/js/socket.js?v=2026.4"></script>
+  <script src="/js/xi-builder.js?v=2026.4"></script>
+  <script src="/js/app.js?v=2026.4"></script>
+</body>
+</html>
